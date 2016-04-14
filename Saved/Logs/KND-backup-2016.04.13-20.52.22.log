@@ -1,0 +1,544 @@
+﻿[2016.04.14-01.42.19:484][  0]Log file open, 04/13/16 20:42:19
+[2016.04.14-01.42.19:484][  0]LogInit:Display: Running engine for game: KND
+[2016.04.14-01.42.19:484][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.14-01.42.19:484][  0]LogInit:Display: RandInit(-645196067) SRandInit(-645196066).
+[2016.04.14-01.42.19:484][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.14-01.42.19:484][  0]LogStats: Stats thread started at 2.147684
+[2016.04.14-01.42.19:484][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.14-01.42.19:484][  0]LogInit: API Version: 2758231
+[2016.04.14-01.42.19:484][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.14-01.42.19:484][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.14-01.42.19:484][  0]LogInit: Build Configuration: Development
+[2016.04.14-01.42.19:484][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.14-01.42.19:484][  0]LogInit: Command line:  
+[2016.04.14-01.42.19:484][  0]LogInit: Base directory: E:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.14-01.42.19:484][  0]LogInit: Rocket: 1
+[2016.04.14-01.42.19:574][  0]LogInit: Using libcurl 7.41.0
+[2016.04.14-01.42.19:574][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.14-01.42.19:574][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.14-01.42.19:574][  0]LogInit:  - other features:
+[2016.04.14-01.42.19:574][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.14-01.42.19:574][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.14-01.42.19:574][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.14-01.42.19:574][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.14-01.42.19:574][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.14-01.42.19:575][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.14-01.42.19:575][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.14-01.42.19:575][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.14-01.42.19:575][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.14-01.42.19:575][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.14-01.42.19:649][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.14-01.42.19:802][  0]LogInit: Object subsystem initialized
+[2016.04.14-01.42.20:092][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.14-01.42.20:092][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.14-01.42.20:144][  0]LogInit: Computer: RAGNOROK
+[2016.04.14-01.42.20:144][  0]LogInit: User: GarrettJohnson
+[2016.04.14-01.42.20:144][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.14-01.42.20:144][  0]LogInit: High frequency timer resolution =3.984650 MHz
+[2016.04.14-01.42.20:144][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.14-01.42.20:145][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.14-01.42.20:145][  0]LogMemory: Process Physical Memory: 56.86 MB used, 56.86 MB peak
+[2016.04.14-01.42.20:145][  0]LogMemory: Process Virtual Memory: 56.80 MB used, 56.80 MB peak
+[2016.04.14-01.42.20:145][  0]LogMemory: Physical Memory: 8376.23 MB used, 16325.72 MB total
+[2016.04.14-01.42.20:145][  0]LogMemory: Virtual Memory: 382.85 MB used, 134217728.00 MB total
+[2016.04.14-01.42.20:796][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.14-01.42.21:735][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2016.04.14-01.42.21:735][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2016.04.14-01.42.21:737][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.14-01.42.21:737][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
+[2016.04.14-01.42.21:737][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.14-01.42.21:742][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.14-01.42.21:742][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.14-01.42.21:753][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.14-01.42.21:945][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/KND/Intermediate/Shaders/WorkingDirectory/16424/).
+[2016.04.14-01.42.21:945][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GARRET~1/AppData/Local/Temp/UnrealShaderWorkingDir/9906E9E4483630FE6CB6E6BD6B7E8BAA/'.
+[2016.04.14-01.42.21:945][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.14-01.42.26:381][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.14-01.42.26:387][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.14-01.42.26:391][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.14-01.42.26:395][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.14-01.42.26:399][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.14-01.42.26:402][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.14-01.42.26:405][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.14-01.42.26:407][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.14-01.42.26:410][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.14-01.42.26:412][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.14-01.42.26:415][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.14-01.42.26:420][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.14-01.42.26:420][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.14-01.42.26:421][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.14-01.42.26:478][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.14-01.42.26:480][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.14-01.42.26:483][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.14-01.42.26:499][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.14-01.42.26:499][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.14-01.42.27:317][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.14-01.42.27:457][  0]LogDerivedDataCache: Loaded boot cache 0.14s 41MB C:/Users/Garrett Johnson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.14-01.42.27:457][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Garrett Johnson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.14-01.42.27:457][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/KND/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.14-01.42.27:457][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.14-01.42.27:457][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal Projects/KND/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.14-01.42.27:457][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.14-01.42.27:545][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.14-01.42.27:558][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Garrett Johnson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.14-01.42.37:776][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.14-01.42.37:900][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.14-01.42.38:809][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.14-01.42.38:809][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.14-01.42.42:380][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.14-01.42.59:644][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.14-01.43.00:190][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.04.14-01.43.06:056][  0]SourceControl: Info Source control is disabled
+[2016.04.14-01.43.06:515][  0]SourceControl: Info Source control is disabled
+[2016.04.14-01.43.06:523][  0]SourceControl: Info Source control is disabled
+[2016.04.14-01.43.06:530][  0]SourceControl: Info Source control is disabled
+[2016.04.14-01.43.08:398][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.14-01.43.08:398][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.14-01.43.09:609][  0]LogEngine: Initializing Engine...
+[2016.04.14-01.43.09:781][  0]OCULUS: Info: 04/14/16 01:43:09: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
+
+[2016.04.14-01.43.09:782][  0]OCULUS: Info: 04/14/16 01:43:09: [IPC] Call Stats for SetInitialState : x1: C2S=11.5443, S2C=3.76445, Runtime=83.3197 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.04.14-01.43.09:782][  0]OCULUS: Info: 04/14/16 01:43:09: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=3.51348, S2C=1.50578, Runtime=1.00385 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.04.14-01.43.09:895][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.14-01.43.11:971][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.14-01.43.12:496][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.14-01.43.12:556][  0]LogInit: FAudioDevice initialized.
+[2016.04.14-01.43.12:573][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Garrett Johnson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.14-01.43.12:576][  0]LogInit: Texture streaming: Enabled
+[2016.04.14-01.43.12:632][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.14-01.43.12:632][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.14-01.43.12:632][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1100b9ee46e2597b617ec6b6f167f1df|59edfd7a1e024ba5bc5c7666785a6599|ad4dcf7c-55ae-48d9-8920-cdda66422389
+[2016.04.14-01.43.12:653][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.14-01.43.12:867][  0]LogInit: Transaction tracking system initialized
+[2016.04.14-01.43.13:231][  0]BlueprintLog: New page: Editor Load
+[2016.04.14-01.43.13:691][  0]LocalizationService: Info Localization service is disabled
+[2016.04.14-01.43.14:220][  0]LogConsoleResponse:Display: 
+[2016.04.14-01.43.19:652][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/KND/Content/' took 0.10s
+[2016.04.14-01.43.19:652][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.14-01.43.21:630][  0]SourceControl: Info Source control is disabled
+[2016.04.14-01.43.21:737][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.14-01.43.21:992][  0]LightingResults: New page: Lighting Build
+[2016.04.14-01.43.22:693][  0]MapCheck: New page: Map Check
+[2016.04.14-01.43.22:693][  0]LightingResults: New page: Lighting Build
+[2016.04.14-01.43.23:345][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156BDFCF420
+[2016.04.14-01.43.29:198][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.04.14-01.43.32:985][  0]LogEditorServer: Finished looking for orphan Actors (0.025 secs)
+[2016.04.14-01.43.33:323][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.14-01.43.34:093][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 769.803ms to complete.
+[2016.04.14-01.43.34:118][  0]LogFileHelpers: Loading map 'Template_Default' took 12.433
+[2016.04.14-01.43.35:237][  0]LogCollectionManager: Loaded 0 collections in 0.001666 seconds
+[2016.04.14-01.43.35:339][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/KND/Saved/Collections/' took 0.01s
+[2016.04.14-01.43.35:339][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/KND/Content/Developers/GarrettJohnson/Collections/' took 0.01s
+[2016.04.14-01.43.35:339][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/KND/Content/Collections/' took 0.01s
+[2016.04.14-01.43.35:339][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.14-01.43.35:345][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 1893 classes and 338 folders.
+[2016.04.14-01.43.35:352][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.04.14-01.43.37:391][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.14-01.43.38:587][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.04.14-01.43.39:976][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.14-01.43.40:379][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.14-01.43.40:444][  0]LogLoad: Full Startup: 85.67 seconds (BP compile: 0.64 seconds)
+[2016.04.14-01.43.40:490][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.04.14-01.43.41:659][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.14-01.43.42:476][  0]LogRenderer: Reallocating scene render targets to support 1240x944 (Frame:2).
+[2016.04.14-01.43.43:206][  3]LogAssetRegistry: Asset discovery search completed in 43.0268 seconds
+[2016.04.14-01.43.43:206][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.14-01.43.43:206][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2016.04.14-01.46.29:357][816]AssetReimport: New page: Outstanding source content changes 3:46:29 PM
+[2016.04.14-01.46.29:689][817]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0000.png)
+[2016.04.14-01.46.29:842][818]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0001.png)
+[2016.04.14-01.46.29:846][818]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0002.png)
+[2016.04.14-01.46.29:849][818]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0003.png)
+[2016.04.14-01.46.29:851][818]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0004.png)
+[2016.04.14-01.46.29:855][818]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0005.png)
+[2016.04.14-01.46.29:858][818]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0006.png)
+[2016.04.14-01.46.29:861][818]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 E:/Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0007.png)
+[2016.04.14-01.46.29:965][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CptOrrin/CptOrrin_Walk_0000" FILE="../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0000.uasset" SILENT=true
+[2016.04.14-01.46.30:062][818]LogSavePackage: Save=70.272919ms
+[2016.04.14-01.46.30:062][818]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/CptOrrin_Walk_0000244D543B48BED0EC589F57843E41EA35.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0000.uasset'
+[2016.04.14-01.46.30:066][818]LogSavePackage: Total save time: 80.235906ms
+[2016.04.14-01.46.30:066][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0000.uasset
+[2016.04.14-01.46.30:083][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CptOrrin/CptOrrin_Walk_0001" FILE="../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0001.uasset" SILENT=true
+[2016.04.14-01.46.30:086][818]LogSavePackage: Save=1.513809ms
+[2016.04.14-01.46.30:086][818]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/CptOrrin_Walk_0001545F713140F43B7DEFF775B654D805B4.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0001.uasset'
+[2016.04.14-01.46.30:088][818]LogSavePackage: Total save time: 3.824677ms
+[2016.04.14-01.46.30:088][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0001.uasset
+[2016.04.14-01.46.30:100][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CptOrrin/CptOrrin_Walk_0002" FILE="../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0002.uasset" SILENT=true
+[2016.04.14-01.46.30:105][818]LogSavePackage: Save=2.141719ms
+[2016.04.14-01.46.30:105][818]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/CptOrrin_Walk_0002F7A151FD4CD9D11C64265D979D590448.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0002.uasset'
+[2016.04.14-01.46.30:109][818]LogSavePackage: Total save time: 5.720202ms
+[2016.04.14-01.46.30:109][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0002.uasset
+[2016.04.14-01.46.30:121][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CptOrrin/CptOrrin_Walk_0003" FILE="../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0003.uasset" SILENT=true
+[2016.04.14-01.46.30:125][818]LogSavePackage: Save=2.365076ms
+[2016.04.14-01.46.30:125][818]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/CptOrrin_Walk_00038F72DC6749AA9A9CD0D33C8909E96B19.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0003.uasset'
+[2016.04.14-01.46.30:128][818]LogSavePackage: Total save time: 5.220786ms
+[2016.04.14-01.46.30:128][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0003.uasset
+[2016.04.14-01.46.30:135][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CptOrrin/CptOrrin_Walk_0004" FILE="../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0004.uasset" SILENT=true
+[2016.04.14-01.46.30:139][818]LogSavePackage: Save=2.114364ms
+[2016.04.14-01.46.30:139][818]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/CptOrrin_Walk_0004D635E03E444460FCEDC176BAB1B8C080.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0004.uasset'
+[2016.04.14-01.46.30:141][818]LogSavePackage: Total save time: 4.774824ms
+[2016.04.14-01.46.30:141][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0004.uasset
+[2016.04.14-01.46.30:149][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CptOrrin/CptOrrin_Walk_0005" FILE="../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0005.uasset" SILENT=true
+[2016.04.14-01.46.30:151][818]LogSavePackage: Save=1.577052ms
+[2016.04.14-01.46.30:151][818]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/CptOrrin_Walk_00059E3161B74A92C5A35FC0FDBFCA54BBE6.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0005.uasset'
+[2016.04.14-01.46.30:155][818]LogSavePackage: Total save time: 5.053643ms
+[2016.04.14-01.46.30:155][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0005.uasset
+[2016.04.14-01.46.30:162][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CptOrrin/CptOrrin_Walk_0006" FILE="../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0006.uasset" SILENT=true
+[2016.04.14-01.46.30:166][818]LogSavePackage: Save=2.306100ms
+[2016.04.14-01.46.30:166][818]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/CptOrrin_Walk_000646B0FC794A6E29324A2F2EBED58984F4.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0006.uasset'
+[2016.04.14-01.46.30:169][818]LogSavePackage: Total save time: 5.601749ms
+[2016.04.14-01.46.30:169][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0006.uasset
+[2016.04.14-01.46.30:179][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CptOrrin/CptOrrin_Walk_0007" FILE="../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0007.uasset" SILENT=true
+[2016.04.14-01.46.30:182][818]LogSavePackage: Save=1.500508ms
+[2016.04.14-01.46.30:182][818]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/CptOrrin_Walk_000748C709B743FF3C386214D0B87F0A9DF8.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0007.uasset'
+[2016.04.14-01.46.30:184][818]LogSavePackage: Total save time: 3.475085ms
+[2016.04.14-01.46.30:184][818]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/CptOrrin/CptOrrin_Walk_0007.uasset
+[2016.04.14-01.46.33:198][828]AssetReimport: Info Importing new asset /Game/CptOrrin/CptOrrin_Walk_0000.
+[2016.04.14-01.46.33:199][828]AssetReimport: Info Importing new asset /Game/CptOrrin/CptOrrin_Walk_0001.
+[2016.04.14-01.46.33:199][828]AssetReimport: Info Importing new asset /Game/CptOrrin/CptOrrin_Walk_0002.
+[2016.04.14-01.46.33:199][828]AssetReimport: Info Importing new asset /Game/CptOrrin/CptOrrin_Walk_0003.
+[2016.04.14-01.46.33:199][828]AssetReimport: Info Importing new asset /Game/CptOrrin/CptOrrin_Walk_0004.
+[2016.04.14-01.46.33:199][828]AssetReimport: Info Importing new asset /Game/CptOrrin/CptOrrin_Walk_0005.
+[2016.04.14-01.46.33:199][828]AssetReimport: Info Importing new asset /Game/CptOrrin/CptOrrin_Walk_0006.
+[2016.04.14-01.46.33:199][828]AssetReimport: Info Importing new asset /Game/CptOrrin/CptOrrin_Walk_0007.
+[2016.04.14-01.47.53:532][ 69]AssetReimport: New page: Outstanding source content changes 3:47:53 PM
+[2016.04.14-01.47.53:554][ 69]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/background/level one  background music.mp3)
+[2016.04.14-01.47.53:602][ 69]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/background/ending song.mp3)
+[2016.04.14-01.47.53:692][ 69]LogSavePackage: Save=1.075879ms
+[2016.04.14-01.47.53:692][ 69]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/level_one__background_music2946015444AC1F7DD0576AB76F879BC8.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/level_one__background_music.uasset'
+[2016.04.14-01.47.53:694][ 69]LogSavePackage: Total save time: 11.780705ms
+[2016.04.14-01.47.53:694][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/level_one__background_music.uasset
+[2016.04.14-01.47.53:726][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/background/ending_song" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/ending_song.uasset" SILENT=true
+[2016.04.14-01.47.53:728][ 69]LogSavePackage: Save=0.856286ms
+[2016.04.14-01.47.53:728][ 69]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/ending_song55ECDAFC4CF201C4A6C1AE9880F6E08D.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/ending_song.uasset'
+[2016.04.14-01.47.53:730][ 69]LogSavePackage: Total save time: 2.916440ms
+[2016.04.14-01.47.53:730][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/ending_song.uasset
+[2016.04.14-01.47.53:863][ 70]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/background/level three background music.mp3)
+[2016.04.14-01.47.53:915][ 70]LogSavePackage: Save=0.930069ms
+[2016.04.14-01.47.53:915][ 70]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/level_three_background_music529F638342425B48263A1EAD9C47D5E8.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/level_three_background_music.uasset'
+[2016.04.14-01.47.53:916][ 70]LogSavePackage: Total save time: 2.770882ms
+[2016.04.14-01.47.53:916][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/level_three_background_music.uasset
+[2016.04.14-01.47.54:196][ 71]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/background/level two background music.mp3)
+[2016.04.14-01.47.54:231][ 71]LogSavePackage: Save=0.870340ms
+[2016.04.14-01.47.54:231][ 71]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/level_two_background_music27714F6949E0BE7378A28AB57011B873.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/level_two_background_music.uasset'
+[2016.04.14-01.47.54:233][ 71]LogSavePackage: Total save time: 2.633605ms
+[2016.04.14-01.47.54:233][ 71]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/level_two_background_music.uasset
+[2016.04.14-01.47.54:863][ 73]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/background/Opening song.mp3)
+[2016.04.14-01.47.54:872][ 73]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/background/map background sound.mp3)
+[2016.04.14-01.47.54:898][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/background/Opening_song" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/Opening_song.uasset" SILENT=true
+[2016.04.14-01.47.54:899][ 73]LogSavePackage: Save=0.777735ms
+[2016.04.14-01.47.54:899][ 73]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/Opening_songD36ECE2C41CDF82D238473A0040459C9.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/Opening_song.uasset'
+[2016.04.14-01.47.54:901][ 73]LogSavePackage: Total save time: 2.212238ms
+[2016.04.14-01.47.54:901][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/Opening_song.uasset
+[2016.04.14-01.47.54:906][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/background/map_background_sound" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/map_background_sound.uasset" SILENT=true
+[2016.04.14-01.47.54:908][ 73]LogSavePackage: Save=0.859549ms
+[2016.04.14-01.47.54:908][ 73]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/map_background_sound3A2710704FB3C975DB1858A9DCDF6B4C.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/map_background_sound.uasset'
+[2016.04.14-01.47.54:909][ 73]LogSavePackage: Total save time: 2.639879ms
+[2016.04.14-01.47.54:909][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/map_background_sound.uasset
+[2016.04.14-01.47.55:197][ 74]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/background/tutorial level sound.mp3)
+[2016.04.14-01.47.55:203][ 74]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/background/Opening theme music.mp3)
+[2016.04.14-01.47.55:228][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/background/tutorial_level_sound" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/tutorial_level_sound.uasset" SILENT=true
+[2016.04.14-01.47.55:230][ 74]LogSavePackage: Save=0.892676ms
+[2016.04.14-01.47.55:230][ 74]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/tutorial_level_soundD2C2AFB9460D1447C9DEDE9DBF54D224.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/tutorial_level_sound.uasset'
+[2016.04.14-01.47.55:232][ 74]LogSavePackage: Total save time: 2.602987ms
+[2016.04.14-01.47.55:232][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/tutorial_level_sound.uasset
+[2016.04.14-01.47.55:237][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/background/Opening_theme_music" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/Opening_theme_music.uasset" SILENT=true
+[2016.04.14-01.47.55:239][ 74]LogSavePackage: Save=0.843738ms
+[2016.04.14-01.47.55:239][ 74]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/Opening_theme_music0BDFDD4F4B120CDC777E9BB91B747A44.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/Opening_theme_music.uasset'
+[2016.04.14-01.47.55:241][ 74]LogSavePackage: Total save time: 2.616290ms
+[2016.04.14-01.47.55:241][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/background/Opening_theme_music.uasset
+[2016.04.14-01.47.58:532][ 84]AssetReimport: Info Importing new asset /Game/Sounds/background/level_one__background_music.
+[2016.04.14-01.47.58:532][ 84]AssetReimport: Info Importing new asset /Game/Sounds/background/ending_song.
+[2016.04.14-01.47.58:532][ 84]AssetReimport: Info Importing new asset /Game/Sounds/background/level_three_background_music.
+[2016.04.14-01.47.58:532][ 84]AssetReimport: Info Importing new asset /Game/Sounds/background/level_two_background_music.
+[2016.04.14-01.47.58:532][ 84]AssetReimport: Info Importing new asset /Game/Sounds/background/Opening_song.
+[2016.04.14-01.47.58:532][ 84]AssetReimport: Info Importing new asset /Game/Sounds/background/map_background_sound.
+[2016.04.14-01.47.58:532][ 84]AssetReimport: Info Importing new asset /Game/Sounds/background/tutorial_level_sound.
+[2016.04.14-01.47.58:532][ 84]AssetReimport: Info Importing new asset /Game/Sounds/background/Opening_theme_music.
+[2016.04.14-01.48.26:199][167]AssetReimport: New page: Outstanding source content changes 3:48:26 PM
+[2016.04.14-01.48.26:199][167]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/sound bytes/notification_sound_1.wav)
+[2016.04.14-01.48.26:331][167]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/sound bytes/movment sound.wav)
+[2016.04.14-01.48.26:529][168]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/sound bytes/back_sound.wav)
+[2016.04.14-01.48.26:690][168]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/sound bytes/save_sound.wav)
+[2016.04.14-01.48.26:862][169]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 E:/Documents/Unreal Projects/KND/Content/Sounds/sound bytes/menu_selection.wav)
+[2016.04.14-01.48.26:977][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/sound_bytes/notification_sound_1" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/notification_sound_1.uasset" SILENT=true
+[2016.04.14-01.48.26:981][169]LogSavePackage: Save=3.003275ms
+[2016.04.14-01.48.26:981][169]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/notification_sound_132DD4C6649275909B83E0B81EAD421F0.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/notification_sound_1.uasset'
+[2016.04.14-01.48.26:983][169]LogSavePackage: Total save time: 5.047116ms
+[2016.04.14-01.48.26:983][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/notification_sound_1.uasset
+[2016.04.14-01.48.26:996][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/sound_bytes/movment_sound" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/movment_sound.uasset" SILENT=true
+[2016.04.14-01.48.27:000][169]LogSavePackage: Save=2.946306ms
+[2016.04.14-01.48.27:000][169]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/movment_soundE7313EAC495756A149E32A9F71FDAF28.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/movment_sound.uasset'
+[2016.04.14-01.48.27:003][169]LogSavePackage: Total save time: 5.759351ms
+[2016.04.14-01.48.27:003][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/movment_sound.uasset
+[2016.04.14-01.48.27:012][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/sound_bytes/back_sound" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/back_sound.uasset" SILENT=true
+[2016.04.14-01.48.27:016][169]LogSavePackage: Save=2.687814ms
+[2016.04.14-01.48.27:016][169]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/back_soundAD2887FC43F74EB9FC2FE99F5C1B80CB.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/back_sound.uasset'
+[2016.04.14-01.48.27:017][169]LogSavePackage: Total save time: 3.859561ms
+[2016.04.14-01.48.27:017][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/back_sound.uasset
+[2016.04.14-01.48.27:026][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/sound_bytes/save_sound" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/save_sound.uasset" SILENT=true
+[2016.04.14-01.48.27:031][169]LogSavePackage: Save=2.967136ms
+[2016.04.14-01.48.27:031][169]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/save_soundA7A0060C41D89BA19A2EA79C788240AE.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/save_sound.uasset'
+[2016.04.14-01.48.27:033][169]LogSavePackage: Total save time: 5.246632ms
+[2016.04.14-01.48.27:033][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/save_sound.uasset
+[2016.04.14-01.48.27:043][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/sound_bytes/menu_selection" FILE="../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/menu_selection.uasset" SILENT=true
+[2016.04.14-01.48.27:047][169]LogSavePackage: Save=2.836887ms
+[2016.04.14-01.48.27:047][169]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/KND/Saved/menu_selectionA18116214D87CF61FF7705BC6C14E401.tmp' to '../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/menu_selection.uasset'
+[2016.04.14-01.48.27:049][169]LogSavePackage: Total save time: 5.141731ms
+[2016.04.14-01.48.27:049][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/KND/Content/Sounds/sound_bytes/menu_selection.uasset
+[2016.04.14-01.48.30:198][179]AssetReimport: Info Importing new asset /Game/Sounds/sound_bytes/notification_sound_1.
+[2016.04.14-01.48.30:198][179]AssetReimport: Info Importing new asset /Game/Sounds/sound_bytes/movment_sound.
+[2016.04.14-01.48.30:198][179]AssetReimport: Info Importing new asset /Game/Sounds/sound_bytes/back_sound.
+[2016.04.14-01.48.30:198][179]AssetReimport: Info Importing new asset /Game/Sounds/sound_bytes/save_sound.
+[2016.04.14-01.48.30:198][179]AssetReimport: Info Importing new asset /Game/Sounds/sound_bytes/menu_selection.
+[2016.04.14-01.49.23:302][377]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Structs/Vector2i.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.23:330][377]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Structs/Fraction.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.23:349][377]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Enums/ELineOfSightType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.23:386][377]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Enums/EBoolCondition.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.23:428][377]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Structs/StepInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.23:453][377]LogClass:Warning: UUserDefinedStructEditorData::RecreateDefaultInstance Cannot parse value. Property: From Dir String: "NewEnumerator5"  Struct: /Game/TBStrategyGrids/Structs/StepInfo.StepInfo 
+[2016.04.14-01.49.23:943][377]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Materials/M_SimpleOpaque.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.26:853][377]LogAIModule: Creating AISystem for world Level_1
+[2016.04.14-01.49.27:380][377]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/KND/Content/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.14-01.49.27:381][377]LightingResults: New page: Lighting Build
+[2016.04.14-01.49.27:469][377]LoadErrors: New page: Loading map: Level_1.umap
+[2016.04.14-01.49.27:598][377]MapCheck: New page: Map Check
+[2016.04.14-01.49.27:598][377]LightingResults: New page: Lighting Build
+[2016.04.14-01.49.27:646][377]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156B4CBB240
+[2016.04.14-01.49.28:540][377]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.14-01.49.28:667][377]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.14-01.49.28:738][377]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.56ms to complete.
+[2016.04.14-01.49.28:738][377]LogFileHelpers: Loading map 'Level_1' took 1.426
+[2016.04.14-01.49.32:173][752]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Materials/M_SimpleTranslucent.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.33:056][752]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Meshes/Shape_Cube.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.33:063][752]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/KND/Content/TBStrategyGrids/Meshes/Shape_Cylinder.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.34:343][752]LogAIModule: Creating AISystem for world Level_1_InProgress
+[2016.04.14-01.49.34:861][752]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/KND/Content/Level_1_InProgress.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.14-01.49.34:862][752]LightingResults: New page: Lighting Build
+[2016.04.14-01.49.34:893][752]LoadErrors: New page: Loading map: Level_1_InProgress.umap
+[2016.04.14-01.49.35:066][752]MapCheck: New page: Map Check
+[2016.04.14-01.49.35:066][752]LightingResults: New page: Lighting Build
+[2016.04.14-01.49.35:082][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156EF245DA0
+[2016.04.14-01.49.35:461][752]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.14-01.49.35:479][752]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.14-01.49.35:555][752]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.61ms to complete.
+[2016.04.14-01.49.35:556][752]LogFileHelpers: Loading map 'Level_1_InProgress' took 0.697
+[2016.04.14-01.49.48:535][157]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.14-01.49.50:391][157]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0347 seconds. Added 107 classes and 0 folders.
+[2016.04.14-01.52.00:255][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156EDD36340
+[2016.04.14-01.52.02:708][177]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.14-01.52.03:424][178]Cmd: QUIT_EDITOR
+[2016.04.14-01.52.03:956][178]LogExit: Preparing to exit.
+[2016.04.14-01.52.05:587][178]LogExit: Editor shut down
+[2016.04.14-01.52.05:587][178]LogExit: Transaction tracking system shut down
+[2016.04.14-01.52.05:588][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156CB849300
+[2016.04.14-01.52.05:588][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156CBA8FF60
+[2016.04.14-01.52.05:615][178]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000156CB9F37E0
+[2016.04.14-01.52.08:712][178]LogExit: Object subsystem successfully closed.
+[2016.04.14-01.52.09:130][178]LogD3D11RHI: Shutdown
+[2016.04.14-01.52.09:130][178]LogD3D11RHI: CleanupD3DDevice
+[2016.04.14-01.52.09:262][178]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.14-01.52.10:570][178]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.04.14-01.52.10:570][178]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2016.04.14-01.52.10:570][178]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.04.14-01.52.10:570][178]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.04.14-01.52.10:571][178]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.04.14-01.52.10:571][178]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.04.14-01.52.10:582][178]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.04.14-01.52.10:595][178]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.04.14-01.52.10:595][178]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.04.14-01.52.10:615][178]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.04.14-01.52.10:632][178]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.14-01.52.10:639][178]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.14-01.52.10:655][178]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.14-01.52.10:705][178]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.14-01.52.10:719][178]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.14-01.52.10:771][178]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.14-01.52.10:771][178]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.14-01.52.10:781][178]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.14-01.52.10:781][178]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.14-01.52.10:951][178]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.14-01.52.10:951][178]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.14-01.52.10:951][178]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.14-01.52.10:951][178]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.14-01.52.10:963][178]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.14-01.52.10:963][178]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.14-01.52.10:973][178]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.14-01.52.10:973][178]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.14-01.52.10:973][178]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.14-01.52.10:990][178]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.14-01.52.10:990][178]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.14-01.52.10:999][178]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.14-01.52.10:999][178]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.14-01.52.11:009][178]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.14-01.52.11:009][178]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.14-01.52.11:009][178]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.14-01.52.11:009][178]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.14-01.52.11:018][178]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.14-01.52.11:018][178]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.14-01.52.11:051][178]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.14-01.52.11:051][178]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.14-01.52.11:057][178]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.14-01.52.11:072][178]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.14-01.52.11:082][178]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.14-01.52.11:083][178]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.14-01.52.11:083][178]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.14-01.52.11:101][178]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.14-01.52.11:114][178]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.14-01.52.11:131][178]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.14-01.52.11:131][178]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.14-01.52.11:131][178]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.14-01.52.11:152][178]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.14-01.52.11:153][178]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.14-01.52.11:196][178]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.14-01.52.11:196][178]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.14-01.52.11:196][178]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.14-01.52.11:208][178]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.14-01.52.11:208][178]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.14-01.52.11:208][178]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.14-01.52.11:220][178]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.14-01.52.11:220][178]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.14-01.52.11:233][178]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.14-01.52.11:233][178]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.14-01.52.11:244][178]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.14-01.52.11:244][178]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.14-01.52.11:244][178]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.14-01.52.11:244][178]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.14-01.52.11:269][178]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.14-01.52.11:284][178]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.14-01.52.11:289][178]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.14-01.52.11:506][178]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.14-01.52.11:522][178]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.14-01.52.11:523][178]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.14-01.52.11:523][178]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.14-01.52.11:523][178]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.14-01.52.11:523][178]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.14-01.52.11:523][178]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.14-01.52.11:523][178]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.14-01.52.11:657][178]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.14-01.52.11:657][178]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.14-01.52.11:672][178]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.14-01.52.11:672][178]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.14-01.52.11:701][178]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.14-01.52.11:710][178]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.14-01.52.11:710][178]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.14-01.52.11:710][178]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.14-01.52.11:723][178]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.14-01.52.11:731][178]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.14-01.52.11:740][178]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.14-01.52.11:749][178]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.14-01.52.11:749][178]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.14-01.52.11:757][178]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.14-01.52.11:770][178]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.14-01.52.11:797][178]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.14-01.52.11:798][178]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.14-01.52.11:798][178]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.14-01.52.11:814][178]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.14-01.52.11:814][178]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.14-01.52.11:814][178]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.14-01.52.11:845][178]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.14-01.52.11:854][178]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.14-01.52.11:854][178]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.14-01.52.11:881][178]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.14-01.52.11:881][178]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.14-01.52.12:063][178]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.14-01.52.12:064][178]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.14-01.52.12:090][178]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.14-01.52.12:191][178]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.14-01.52.12:191][178]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.14-01.52.12:200][178]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.14-01.52.12:207][178]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.14-01.52.12:207][178]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.14-01.52.12:207][178]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.14-01.52.12:207][178]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.14-01.52.12:207][178]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.14-01.52.12:207][178]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.14-01.52.12:239][178]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.14-01.52.12:239][178]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.14-01.52.12:257][178]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.14-01.52.12:257][178]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.14-01.52.12:257][178]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.14-01.52.12:279][178]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.14-01.52.12:315][178]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.14-01.52.12:339][178]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.14-01.52.12:361][178]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.14-01.52.12:361][178]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.14-01.52.12:362][178]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.14-01.52.12:362][178]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.14-01.52.12:362][178]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.14-01.52.12:362][178]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.14-01.52.12:362][178]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.14-01.52.12:362][178]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.14-01.52.12:362][178]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.14-01.52.12:362][178]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.14-01.52.12:376][178]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.14-01.52.12:422][178]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.14-01.52.12:466][178]LogDerivedDataCache: Shutdown
+[2016.04.14-01.52.12:466][178]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.14-01.52.12:485][178]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.14-01.52.12:496][178]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.14-01.52.12:505][178]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.14-01.52.12:505][178]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.14-01.52.12:509][178]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.14-01.52.12:518][178]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.14-01.52.12:527][178]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.14-01.52.12:527][178]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.14-01.52.12:527][178]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.14-01.52.12:527][178]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.14-01.52.12:531][178]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.14-01.52.12:531][178]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.14-01.52.12:542][178]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.14-01.52.12:555][178]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.14-01.52.12:558][178]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.14-01.52.12:564][178]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.14-01.52.12:575][178]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.14-01.52.12:582][178]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.14-01.52.12:594][178]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.14-01.52.12:594][178]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.14-01.52.12:594][178]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.14-01.52.12:594][178]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.14-01.52.12:594][178]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.14-01.52.12:594][178]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.14-01.52.13:595][178]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.14-01.52.13:789][178]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.14-01.52.13:789][178]LogHMD: Oculus shutdown.
+[2016.04.14-01.52.13:789][178]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.14-01.52.13:789][178]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.14-01.52.13:803][178]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.14-01.52.13:803][178]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.14-01.52.13:803][178]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.14-01.52.13:825][178]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.14-01.52.13:838][178]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.14-01.52.13:838][178]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.14-01.52.13:838][178]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.14-01.52.13:838][178]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.14-01.52.13:838][178]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.14-01.52.13:838][178]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.14-01.52.13:849][178]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.14-01.52.13:857][178]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.14-01.52.13:865][178]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.14-01.52.13:880][178]LogExit: Exiting.
+[2016.04.14-01.52.13:890][178]Log file closed, 04/13/16 20:52:13
