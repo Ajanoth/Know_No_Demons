@@ -838,6 +838,8 @@ Engine\Content\EditorMaterials\GizmoMaterial.uasset
 Engine\Content\EditorMaterials\GridMaterial.uasset
 Engine\Content\EditorMaterials\HelpActorMaterial.uasset
 Engine\Content\EditorMaterials\LevelGridMaterial.uasset
+Engine\Content\EditorMaterials\LevelGridMaterial2.uasset
+Engine\Content\EditorMaterials\MakeCompositeARGBLayer.uasset
 Engine\Content\EditorMaterials\MatineeCam_mat.uasset
 Engine\Content\EditorMaterials\MAT_Groups_Toggle.uasset
 Engine\Content\EditorMaterials\MAT_Groups_Visibility.uasset
@@ -850,6 +852,8 @@ Engine\Content\EditorMaterials\PhAT_UnselectedMaterial.uasset
 Engine\Content\EditorMaterials\PreviewShadowIndicator.uasset
 Engine\Content\EditorMaterials\PreviewShadowIndicatorMaterial.uasset
 Engine\Content\EditorMaterials\TargetIcon.uasset
+Engine\Content\EditorMaterials\TextureGridCascaded1D.uasset
+Engine\Content\EditorMaterials\TextureGridCascaded2D.uasset
 Engine\Content\EditorMaterials\Tick.uasset
 Engine\Content\EditorMaterials\Tick_Mat.uasset
 Engine\Content\EditorMaterials\TilingAADots.uasset
@@ -893,6 +897,7 @@ Engine\Content\EditorResources\Bkgnd.uasset
 Engine\Content\EditorResources\BkgndHi.uasset
 Engine\Content\EditorResources\BSPVertex.uasset
 Engine\Content\EditorResources\EmptyActor.uasset
+Engine\Content\EditorResources\LevelGrid1DStripes.uasset
 Engine\Content\EditorResources\MatineeCam_D.uasset
 Engine\Content\EditorResources\MatInstActSprite.uasset
 Engine\Content\EditorResources\SceneManager.uasset
@@ -930,6 +935,10 @@ Engine\Content\EditorResources\LightIcons\S_LightPointMove.uasset
 Engine\Content\EditorResources\LightIcons\S_LightSpot.uasset
 Engine\Content\EditorResources\LightIcons\S_LightSpotMove.uasset
 Engine\Content\EditorResources\Spline\T_Loft_Spline.uasset
+Engine\Content\EditorSounds\GamePreview\EndPlayInEditor.uasset
+Engine\Content\EditorSounds\GamePreview\EndPlayInEditor_Cue.uasset
+Engine\Content\EditorSounds\GamePreview\StartPlayInEditor.uasset
+Engine\Content\EditorSounds\GamePreview\StartPlayInEditor_Cue.uasset
 Engine\Content\EditorSounds\Notifications\CompileFailed.uasset
 Engine\Content\EditorSounds\Notifications\CompileFailed_Cue.uasset
 Engine\Content\EditorSounds\Notifications\CompileStart_Cue.uasset
@@ -1080,8 +1089,11 @@ KND\Content\ExampleCharacter_Ally_Melee.uasset
 KND\Content\ExampleCharacter_Bandit_Melee.uasset
 KND\Content\ExampleCharacter_CptOrrin.uasset
 KND\Content\GameController_KND.uasset
+KND\Content\GameState_KND.uasset
 KND\Content\ProtoTileSet.uasset
+KND\Content\SaveGame_KND.uasset
 KND\Content\TileMap_Level_1.uasset
+KND\Content\TileMap_Level_2.uasset
 KND\Content\CptOrrin\CptOrrin_Idle.uasset
 KND\Content\CptOrrin\CptOrrin_Walk_0000.uasset
 KND\Content\CptOrrin\CptOrrin_Walk_0000_Sprite.uasset
@@ -1094,6 +1106,7 @@ KND\Content\CptOrrin\CptOrrin_Walk_0005_Sprite.uasset
 KND\Content\Images\KND_Transparent.uasset
 KND\Content\Images\titlebackground_v1.uasset
 KND\Content\Maps\Level_1_Final.umap
+KND\Content\Maps\Level_2_Redo.umap
 KND\Content\Maps\Main.umap
 KND\Content\Old\CptOrrin.uasset
 KND\Content\Sounds\back_sound_Cue.uasset
