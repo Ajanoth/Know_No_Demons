@@ -1,0 +1,911 @@
+﻿[2016.04.22-08.22.22:061][  0]Log file open, 04/22/16 03:22:22
+[2016.04.22-08.22.22:061][  0]LogInit:Display: Running engine for game: KND
+[2016.04.22-08.22.22:061][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.22-08.22.22:061][  0]LogInit:Display: RandInit(-53431925) SRandInit(-53431925).
+[2016.04.22-08.22.22:061][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.22-08.22.22:061][  0]LogStats: Stats thread started at 0.066954
+[2016.04.22-08.22.22:061][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.22-08.22.22:061][  0]LogInit: API Version: 2758231
+[2016.04.22-08.22.22:061][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.22-08.22.22:061][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.22-08.22.22:061][  0]LogInit: Build Configuration: Development
+[2016.04.22-08.22.22:061][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.22-08.22.22:061][  0]LogInit: Command line:  
+[2016.04.22-08.22.22:061][  0]LogInit: Base directory: E:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.22-08.22.22:061][  0]LogInit: Rocket: 1
+[2016.04.22-08.22.22:067][  0]LogInit: Using libcurl 7.41.0
+[2016.04.22-08.22.22:067][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.22-08.22.22:067][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.22-08.22.22:067][  0]LogInit:  - other features:
+[2016.04.22-08.22.22:067][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.22-08.22.22:067][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.22-08.22.22:067][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.22-08.22.22:067][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.22-08.22.22:067][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.22-08.22.22:067][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.22-08.22.22:067][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.22-08.22.22:067][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.22-08.22.22:067][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.22-08.22.22:067][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.22-08.22.22:072][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.22-08.22.22:076][  0]LogInit: Object subsystem initialized
+[2016.04.22-08.22.22:077][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.22-08.22.22:077][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.22-08.22.22:082][  0]LogInit: Computer: RAGNOROK
+[2016.04.22-08.22.22:082][  0]LogInit: User: GarrettJohnson
+[2016.04.22-08.22.22:082][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.22-08.22.22:082][  0]LogInit: High frequency timer resolution =3.984652 MHz
+[2016.04.22-08.22.22:082][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.22-08.22.22:082][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.22-08.22.22:082][  0]LogMemory: Process Physical Memory: 57.11 MB used, 57.11 MB peak
+[2016.04.22-08.22.22:082][  0]LogMemory: Process Virtual Memory: 56.84 MB used, 56.84 MB peak
+[2016.04.22-08.22.22:082][  0]LogMemory: Physical Memory: 9046.55 MB used, 16325.72 MB total
+[2016.04.22-08.22.22:082][  0]LogMemory: Virtual Memory: 382.86 MB used, 134217728.00 MB total
+[2016.04.22-08.22.22:115][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.22-08.22.22:411][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2016.04.22-08.22.22:411][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 1 output[s]
+[2016.04.22-08.22.22:412][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.22-08.22.22:412][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
+[2016.04.22-08.22.22:412][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.22-08.22.22:417][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.22-08.22.22:417][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.22-08.22.22:426][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.22-08.22.22:441][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../../../Documents/Unreal Projects/Know_No_Demons/Intermediate/Shaders/WorkingDirectory/12140/).
+[2016.04.22-08.22.22:441][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GARRET~1/AppData/Local/Temp/UnrealShaderWorkingDir/014328844E6FBA476D22CCAA9E39232A/'.
+[2016.04.22-08.22.22:441][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.22-08.22.22:985][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.22-08.22.22:988][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.22-08.22.22:992][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.22-08.22.22:995][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.22-08.22.22:999][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.22-08.22.23:001][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.22-08.22.23:003][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.22-08.22.23:005][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.22-08.22.23:007][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.22-08.22.23:009][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.22-08.22.23:011][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.22-08.22.23:016][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.22-08.22.23:016][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.22-08.22.23:017][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.22-08.22.23:031][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.22-08.22.23:033][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.22-08.22.23:035][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.22-08.22.23:038][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.22-08.22.23:038][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.22-08.22.23:095][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.22-08.22.23:125][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Garrett Johnson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.22-08.22.23:125][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Garrett Johnson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.22-08.22.23:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/Unreal Projects/Know_No_Demons/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.22-08.22.23:125][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.22-08.22.23:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/Unreal Projects/Know_No_Demons/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.22-08.22.23:125][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.22-08.22.23:164][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.22-08.22.23:176][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Garrett Johnson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.22-08.22.23:306][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.22-08.22.23:308][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.22-08.22.23:381][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.22-08.22.23:381][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.22-08.22.23:528][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.22-08.22.24:222][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.22-08.22.24:329][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2016.04.22-08.22.24:456][  0]SourceControl: Info Source control is disabled
+[2016.04.22-08.22.24:498][  0]SourceControl: Info Source control is disabled
+[2016.04.22-08.22.24:506][  0]SourceControl: Info Source control is disabled
+[2016.04.22-08.22.24:515][  0]SourceControl: Info Source control is disabled
+[2016.04.22-08.22.24:664][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.22-08.22.24:664][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.04.22-08.22.24:704][  0]LogEngine: Initializing Engine...
+[2016.04.22-08.22.24:706][  0]OCULUS: Info: 04/22/16 08:22:24: [CAPI] LibOVR module is located at C:\WINDOWS\SYSTEM32\LibOVRRT64_0_8.dll
+
+[2016.04.22-08.22.24:706][  0]OCULUS: Info: 04/22/16 08:22:24: [IPC] Call Stats for SetInitialState : x1: C2S=11.7953, S2C=3.76444, Runtime=34.131 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.04.22-08.22.24:706][  0]OCULUS: Info: 04/22/16 08:22:24: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=4.01541, S2C=2.0077, Runtime=0.501926 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.04.22-08.22.24:718][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.22-08.22.24:789][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.22-08.22.24:800][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.22-08.22.24:846][  0]LogInit: FAudioDevice initialized.
+[2016.04.22-08.22.24:862][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Garrett Johnson/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.22-08.22.24:864][  0]LogInit: Texture streaming: Enabled
+[2016.04.22-08.22.24:869][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.22-08.22.24:869][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.22-08.22.24:869][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1100b9ee46e2597b617ec6b6f167f1df|59edfd7a1e024ba5bc5c7666785a6599|ad4dcf7c-55ae-48d9-8920-cdda66422389
+[2016.04.22-08.22.24:869][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.22-08.22.24:878][  0]LogInit: Transaction tracking system initialized
+[2016.04.22-08.22.24:897][  0]BlueprintLog: New page: Editor Load
+[2016.04.22-08.22.24:957][  0]LocalizationService: Info Localization service is disabled
+[2016.04.22-08.22.25:018][  0]LogConsoleResponse:Display: 
+[2016.04.22-08.22.25:090][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.22-08.22.25:130][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/Know_No_Demons/Content/' took 0.01s
+[2016.04.22-08.22.25:130][  0]SourceControl: Info Source control is disabled
+[2016.04.22-08.22.25:130][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.22-08.22.25:130][  0]LightingResults: New page: Lighting Build
+[2016.04.22-08.22.25:132][  0]MapCheck: New page: Map Check
+[2016.04.22-08.22.25:132][  0]LightingResults: New page: Lighting Build
+[2016.04.22-08.22.25:138][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000266E829F420
+[2016.04.22-08.22.25:169][  0]LogAIModule: Creating AISystem for world Main
+[2016.04.22-08.22.25:170][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.22-08.22.25:170][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.22-08.22.25:217][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.84ms to complete.
+[2016.04.22-08.22.25:217][  0]LogFileHelpers: Loading map 'Main' took 0.087
+[2016.04.22-08.22.25:287][  0]LogCollectionManager: Loaded 0 collections in 0.001461 seconds
+[2016.04.22-08.22.25:323][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/Know_No_Demons/Saved/Collections/' took 0.01s
+[2016.04.22-08.22.25:323][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/Know_No_Demons/Content/Developers/GarrettJohnson/Collections/' took 0.01s
+[2016.04.22-08.22.25:323][  0]LogFileCache: Scanning file cache for directory 'E:/Documents/Unreal Projects/Know_No_Demons/Content/Collections/' took 0.01s
+[2016.04.22-08.22.25:323][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.04.22-08.22.25:328][  0]LogContentBrowser: Native class hierarchy populated in 0.0047 seconds. Added 1893 classes and 338 folders.
+[2016.04.22-08.22.25:332][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.04.22-08.22.25:367][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.04.22-08.22.25:387][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.04.22-08.22.25:415][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.22-08.22.25:419][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.22-08.22.25:440][  0]LogLoad: Full Startup: 3.67 seconds (BP compile: 0.01 seconds)
+[2016.04.22-08.22.25:449][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.04.22-08.22.25:493][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.22-08.22.25:630][  0]LogRenderer: Reallocating scene render targets to support 1240x944 (Frame:2).
+[2016.04.22-08.22.25:685][  1]LogAssetRegistry: Asset discovery search completed in 1.3668 seconds
+[2016.04.22-08.22.25:685][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.22-08.22.25:685][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2016.04.22-08.22.40:329][743]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Structs/Vector2i.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.22-08.22.40:333][743]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Structs/Fraction.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.22-08.22.40:338][743]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Enums/ELineOfSightType.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.22-08.22.40:426][743]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Materials/M_SimpleOpaque.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.22-08.22.40:430][743]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Enums/EBoolCondition.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.22-08.22.40:435][743]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Structs/StepInfo.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.22-08.22.40:435][743]LogClass:Warning: UUserDefinedStructEditorData::RecreateDefaultInstance Cannot parse value. Property: From Dir String: "NewEnumerator5"  Struct: /Game/TBStrategyGrids/Structs/StepInfo.StepInfo 
+[2016.04.22-08.22.41:306][743]LogLinker:Warning: Asset '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Materials/M_SimpleTranslucent.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.22-08.22.41:541][743]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.22.41:542][743]LogBlueprint:Warning: [compiler HUD] Warning [0019.77] Compile of HUD successful, but with 1 Warning(s) [in 1 ms]
+[2016.04.22-08.22.41:542][743]LogBlueprint:Warning: [compiler HUD] Warning [0019.77] Compile of HUD successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.22-08.22.41:542][743]LogBlueprint:Warning: [compiler HUD] Warning [0019.77] Compile of HUD successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.22-08.22.41:547][743]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.22.41:548][743]LogBlueprint:Warning: [compiler HUD] Warning [0019.77] Compile of HUD successful, but with 1 Warning(s) [in 0 ms]
+[2016.04.22-08.22.41:548][743]LogBlueprint:Warning: [compiler HUD] Warning [0019.77] Compile of HUD successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.22-08.22.41:548][743]LogBlueprint:Warning: [compiler HUD] Warning [0019.77] Compile of HUD successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.22-08.22.42:465][743]LogAIModule: Creating AISystem for world Level_1_Final
+[2016.04.22-08.22.42:830][743]Cmd: MAP LOAD FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Maps/Level_1_Final.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.22-08.22.42:830][743]LightingResults: New page: Lighting Build
+[2016.04.22-08.22.42:856][743]LoadErrors: New page: Loading map: Level_1_Final.umap
+[2016.04.22-08.22.42:856][743]MapCheck: New page: Map Check
+[2016.04.22-08.22.42:856][743]LightingResults: New page: Lighting Build
+[2016.04.22-08.22.42:867][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000266E7D6FD80
+[2016.04.22-08.22.43:179][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.22-08.22.43:198][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.22-08.22.43:259][743]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.78ms to complete.
+[2016.04.22-08.22.43:259][743]LogFileHelpers: Loading map 'Level_1_Final' took 0.430
+[2016.04.22-08.22.51:027][657]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.22-08.22.51:274][657]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2016.04.22-08.24.24:482][528]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.24.24:487][528]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.24.24:556][528]LogBlueprint:Warning: [compiler HUD] Warning [0122.78] Compile of HUD successful, but with 1 Warning(s) [in 74 ms]
+[2016.04.22-08.24.24:556][528]BlueprintEditorCompileResults:Warning: Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.24.24:556][528]BlueprintEditorCompileResults:Warning: Warning [0122.78] Compile of HUD successful, but with 1 Warning(s) [in 74 ms]
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:UserConstructionScript.K2Node_FunctionEntry_153' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanAttackVertical.K2Node_FunctionEntry_157' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:GetLevelGrid.K2Node_FunctionResult_1' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin_C' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:GetLevelGrid.K2Node_FunctionEntry_156' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanAttackVertical.K2Node_FunctionResult_2' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanMoveVertical.K2Node_FunctionEntry_158' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanMoveVertical.K2Node_FunctionResult_3' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanTargetTerrain.K2Node_FunctionEntry_159' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanTargetTerrain.K2Node_FunctionResult_4' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanPassThroughActor.K2Node_FunctionEntry_160' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanPassThroughActor.K2Node_FunctionResult_5' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanEnterTerrain.K2Node_FunctionEntry_161' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:CanEnterTerrain.K2Node_FunctionResult_6' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:GetAllegianceToActor.K2Node_FunctionEntry_162' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:GetAllegianceToActor.K2Node_FunctionResult_7' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:GetGridTransform.K2Node_FunctionEntry_163' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:GetGridTransform.K2Node_FunctionResult_8' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:GetGridPosition.K2Node_FunctionEntry_164' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.CptOrrin:GetGridPosition.K2Node_FunctionResult_9' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:553][ 78]LogMetaData: Removing '/Game/Old/CptOrrin.SKEL_CptOrrin_C' ref from Metadata '/Game/CptOrrin.PackageMetaData'
+[2016.04.22-08.24.47:597][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Old/CptOrrin" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Old/CptOrrin.uasset" SILENT=true
+[2016.04.22-08.24.47:631][ 78]LogSavePackage: Save=30.964811ms
+[2016.04.22-08.24.47:631][ 78]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/CptOrrinD4E6ECE443240AC38D079FABD0712AD6.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Old/CptOrrin.uasset'
+[2016.04.22-08.24.47:633][ 78]LogSavePackage: Total save time: 35.637241ms
+[2016.04.22-08.24.47:633][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Old/CptOrrin.uasset
+[2016.04.22-08.24.47:797][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/PauseMenu" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Widgets/PauseMenu.uasset" SILENT=true
+[2016.04.22-08.24.47:822][ 78]LogSavePackage: Save=13.907363ms
+[2016.04.22-08.24.47:822][ 78]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/PauseMenu234868524654EF81C10910AA0B678A61.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Widgets/PauseMenu.uasset'
+[2016.04.22-08.24.47:824][ 78]LogSavePackage: Total save time: 26.224375ms
+[2016.04.22-08.24.47:824][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Widgets/PauseMenu.uasset
+[2016.04.22-08.26.25:913][646]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.26.25:916][646]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character' does not inherit from 'Character' ( Cast To ExampleCharacter  would always fail).
+[2016.04.22-08.26.25:985][646]LogBlueprint:Warning: [compiler HUD] Warning [0244.21] Compile of HUD successful, but with 1 Warning(s) [in 72 ms]
+[2016.04.22-08.26.25:986][646]BlueprintEditorCompileResults:Warning: Warning 'Example Character' does not inherit from 'Character' ( Cast To ExampleCharacter  would always fail).
+[2016.04.22-08.26.25:986][646]BlueprintEditorCompileResults:Warning: Warning [0244.21] Compile of HUD successful, but with 1 Warning(s) [in 72 ms]
+[2016.04.22-08.26.55:463][145]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.26.55:466][145]LogBlueprint:Warning: [compiler HUD] Warning 'ReturnValue' is already a 'Character' (which inherits from 'Actor'), so you don't need  Cast To Actor .
+[2016.04.22-08.26.55:527][145]LogBlueprint:Warning: [compiler HUD] Warning [0273.75] Compile of HUD successful, but with 1 Warning(s) [in 63 ms]
+[2016.04.22-08.26.55:527][145]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Character' (which inherits from 'Actor'), so you don't need  Cast To Actor .
+[2016.04.22-08.26.55:527][145]BlueprintEditorCompileResults:Warning: Warning [0273.75] Compile of HUD successful, but with 1 Warning(s) [in 63 ms]
+[2016.04.22-08.27.20:612][117]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.27.20:615][117]LogBlueprint:Warning: [compiler HUD] Warning 'ReturnValue' is already a 'Character' (which inherits from 'Actor'), so you don't need  Cast To Actor .
+[2016.04.22-08.27.20:676][117]LogBlueprint:Warning: [compiler HUD] Warning [0298.90] Compile of HUD successful, but with 1 Warning(s) [in 62 ms]
+[2016.04.22-08.27.20:676][117]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Character' (which inherits from 'Actor'), so you don't need  Cast To Actor .
+[2016.04.22-08.27.20:676][117]BlueprintEditorCompileResults:Warning: Warning [0298.90] Compile of HUD successful, but with 1 Warning(s) [in 62 ms]
+[2016.04.22-08.27.49:277][516]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.27.49:280][516]LogBlueprint:Warning: [compiler HUD] Warning 'ReturnValue' is already a 'Character' (which inherits from 'Actor'), so you don't need  Cast To Actor .
+[2016.04.22-08.27.49:344][516]LogBlueprint:Warning: [compiler HUD] Warning [0327.57] Compile of HUD successful, but with 1 Warning(s) [in 66 ms]
+[2016.04.22-08.27.49:344][516]BlueprintEditorCompileResults:Warning: Warning 'ReturnValue' is already a 'Character' (which inherits from 'Actor'), so you don't need  Cast To Actor .
+[2016.04.22-08.27.49:344][516]BlueprintEditorCompileResults:Warning: Warning [0327.57] Compile of HUD successful, but with 1 Warning(s) [in 66 ms]
+[2016.04.22-08.28.59:171][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final' with GeneratedClass '/Game/Maps/Level_1_Final.Level_1_Final_C' with ClassGeneratedBy '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final'
+[2016.04.22-08.28.59:171][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.22-08.28.59:172][746]PIE: New page: PIE session: Level_1_Final (Apr 21, 2016, 10:28:59 PM)
+[2016.04.22-08.28.59:172][746]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1_Final
+[2016.04.22-08.28.59:177][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004946s)
+[2016.04.22-08.28.59:177][746]LogAIModule: Creating AISystem for world Level_1_Final
+[2016.04.22-08.28.59:177][746]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2016.04.22-08.28.59:177][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1_Final.Level_1_Final to /Game/Maps/UEDPIE_0_Level_1_Final.Level_1_Final (0.005677s)
+[2016.04.22-08.28.59:211][746]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.22-08.28.59:255][746]LogInit: FAudioDevice initialized.
+[2016.04.22-08.29.00:227][746]LogWorld: Game class is 'ExampleGameMode_C'
+[2016.04.22-08.29.00:229][746]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1_Final.Level_1_Final up for play (max tick rate 0) at 2016.04.22-03.29.00
+[2016.04.22-08.29.00:229][746]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level_1_Final.Level_1_Final:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.22-08.29.00:229][746]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level_1_Final.Level_1_Final:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.22-08.29.00:230][746]LogWorld: Bringing up level for play took: 0.001548
+[2016.04.22-08.29.00:256][746]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1_Final 0.387
+[2016.04.22-08.29.00:256][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final' with GeneratedClass '/Game/Maps/Level_1_Final.Level_1_Final_C' with ClassGeneratedBy '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final'
+[2016.04.22-08.29.08:214][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final' with GeneratedClass '/Game/Maps/Level_1_Final.Level_1_Final_C' with ClassGeneratedBy '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final'
+[2016.04.22-08.29.08:260][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final' with GeneratedClass '/Game/Maps/Level_1_Final.Level_1_Final_C' with ClassGeneratedBy '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final'
+[2016.04.22-08.29.08:297][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000266B0179D00
+[2016.04.22-08.31.26:767][311]LogSavePackage: Save=4.144904ms
+[2016.04.22-08.31.26:767][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Trans_Sprite_3DD00B17447CC1A1081B8CDB69FACA978.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans_Sprite_3.uasset'
+[2016.04.22-08.31.26:769][311]LogSavePackage: Total save time: 6.424401ms
+[2016.04.22-08.31.26:770][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans_Sprite_3.uasset
+[2016.04.22-08.31.26:782][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player_Cursor/Player_Select" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select.uasset" SILENT=true
+[2016.04.22-08.31.26:786][311]LogSavePackage: Save=2.779415ms
+[2016.04.22-08.31.26:786][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_SelectCAD876774F581B3D04C0CCB1C7ED0119.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select.uasset'
+[2016.04.22-08.31.26:788][311]LogSavePackage: Total save time: 4.490729ms
+[2016.04.22-08.31.26:788][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select.uasset
+[2016.04.22-08.31.27:226][311]LogSavePackage: Save=7.056325ms
+[2016.04.22-08.31.27:226][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Sprite_0BB7148B8418BAF5B41250CA4568C2661.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Sprite_0.uasset'
+[2016.04.22-08.31.27:230][311]LogSavePackage: Total save time: 11.478294ms
+[2016.04.22-08.31.27:230][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Sprite_0.uasset
+[2016.04.22-08.31.27:261][311]LogSavePackage: Save=3.650758ms
+[2016.04.22-08.31.27:261][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Sprite_1BFA8446047791C4154F5C1A3F0D5D64D.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Sprite_1.uasset'
+[2016.04.22-08.31.27:263][311]LogSavePackage: Total save time: 5.938284ms
+[2016.04.22-08.31.27:263][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Sprite_1.uasset
+[2016.04.22-08.31.27:283][311]LogSavePackage: Save=3.790042ms
+[2016.04.22-08.31.27:283][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Sprite_2269137B74761DE4D3D751992A09BAB4D.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Sprite_2.uasset'
+[2016.04.22-08.31.27:285][311]LogSavePackage: Total save time: 6.287877ms
+[2016.04.22-08.31.27:285][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Sprite_2.uasset
+[2016.04.22-08.31.27:304][311]LogSavePackage: Save=3.707476ms
+[2016.04.22-08.31.27:304][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Sprite_337B45E6145CA3D1F2439379E07EFA09F.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Sprite_3.uasset'
+[2016.04.22-08.31.27:306][311]LogSavePackage: Total save time: 5.846683ms
+[2016.04.22-08.31.27:306][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Sprite_3.uasset
+[2016.04.22-08.31.27:324][311]LogSavePackage: Save=3.106670ms
+[2016.04.22-08.31.27:324][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Trans69715C074FA6E31FF1FB4AB080B2D4D3.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans.uasset'
+[2016.04.22-08.31.27:326][311]LogSavePackage: Total save time: 5.138967ms
+[2016.04.22-08.31.27:326][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans.uasset
+[2016.04.22-08.31.27:332][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Player_Select_Trans" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Select_Trans.uasset" SILENT=true
+[2016.04.22-08.31.27:344][311]LogSavePackage: Save=0.957675ms
+[2016.04.22-08.31.27:344][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Trans3378FA9D412A9DF80BCE0097451C891C.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Select_Trans.uasset'
+[2016.04.22-08.31.27:346][311]LogSavePackage: Total save time: 13.022970ms
+[2016.04.22-08.31.27:346][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Select_Trans.uasset
+[2016.04.22-08.31.27:364][311]LogSavePackage: Save=3.448482ms
+[2016.04.22-08.31.27:364][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Trans_Sprite_098D8A3C3490ACAD7B462968FF833126A.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans_Sprite_0.uasset'
+[2016.04.22-08.31.27:366][311]LogSavePackage: Total save time: 5.615044ms
+[2016.04.22-08.31.27:366][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans_Sprite_0.uasset
+[2016.04.22-08.31.27:384][311]LogSavePackage: Save=3.748634ms
+[2016.04.22-08.31.27:384][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Trans_Sprite_16BAB36994CE37E9D1013619331370083.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans_Sprite_1.uasset'
+[2016.04.22-08.31.27:386][311]LogSavePackage: Total save time: 5.861741ms
+[2016.04.22-08.31.27:386][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans_Sprite_1.uasset
+[2016.04.22-08.31.27:405][311]LogSavePackage: Save=4.344419ms
+[2016.04.22-08.31.27:405][311]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Player_Select_Trans_Sprite_2F13A91B647F98F7E7AE8A8A1F69476E3.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans_Sprite_2.uasset'
+[2016.04.22-08.31.27:406][311]LogSavePackage: Total save time: 6.262530ms
+[2016.04.22-08.31.27:406][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/Player_Cursor/Player_Select_Trans_Sprite_2.uasset
+[2016.04.22-08.31.34:452][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\FreyJakko_BattleMap_WalkStraight0000.png)
+[2016.04.22-08.31.34:453][432]LogTexture:Display: Building textures: FreyJakko_BattleMap_WalkStraight0000 (AutoDXT)
+[2016.04.22-08.31.34:459][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\JacenZarus_BattleMap_WalkStraight0000.png)
+[2016.04.22-08.31.34:461][432]LogTexture:Display: Building textures: JacenZarus_BattleMap_WalkStraight0000 (AutoDXT)
+[2016.04.22-08.31.34:468][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\JacenZarus_BattleMap_WalkStraight0001.png)
+[2016.04.22-08.31.34:469][432]LogTexture:Display: Building textures: JacenZarus_BattleMap_WalkStraight0001 (AutoDXT)
+[2016.04.22-08.31.34:475][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\NeilaHacher_BattleMap_WalkStraight0000.png)
+[2016.04.22-08.31.34:477][432]LogTexture:Display: Building textures: NeilaHacher_BattleMap_WalkStraight0000 (AutoDXT)
+[2016.04.22-08.31.34:483][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\orrin_side0000.png)
+[2016.04.22-08.31.34:484][432]LogTexture:Display: Building textures: orrin_side0000 (AutoDXT)
+[2016.04.22-08.31.34:491][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\StaticDummy_BattleMap0000.png)
+[2016.04.22-08.31.34:492][432]LogTexture:Display: Building textures: StaticDummy_BattleMap0000 (AutoDXT)
+[2016.04.22-08.31.34:497][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WheeledDummy_BattleMap0000.png)
+[2016.04.22-08.31.34:498][432]LogTexture:Display: Building textures: WheeledDummy_BattleMap0000 (AutoDXT)
+[2016.04.22-08.31.34:503][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WheeledDummy_BattleMap0001.png)
+[2016.04.22-08.31.34:503][432]LogTexture:Display: Building textures: WheeledDummy_BattleMap0001 (AutoDXT)
+[2016.04.22-08.31.34:509][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WheeledDummy_BattleMap0002.png)
+[2016.04.22-08.31.34:509][432]LogTexture:Display: Building textures: WheeledDummy_BattleMap0002 (AutoDXT)
+[2016.04.22-08.31.34:514][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WheeledDummy_BattleMap0003.png)
+[2016.04.22-08.31.34:515][432]LogTexture:Display: Building textures: WheeledDummy_BattleMap0003 (AutoDXT)
+[2016.04.22-08.31.34:520][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WydwynVayar_BattleMap_WalkStraight0000.png)
+[2016.04.22-08.31.34:522][432]LogTexture:Display: Building textures: WydwynVayar_BattleMap_WalkStraight0000 (AutoDXT)
+[2016.04.22-08.31.34:527][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WydwynVayar_BattleMap_WalkStraight0001.png)
+[2016.04.22-08.31.34:528][432]LogTexture:Display: Building textures: WydwynVayar_BattleMap_WalkStraight0001 (AutoDXT)
+[2016.04.22-08.31.34:534][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WydwynVayar_BattleMap_WalkStraight0002.png)
+[2016.04.22-08.31.34:535][432]LogTexture:Display: Building textures: WydwynVayar_BattleMap_WalkStraight0002 (AutoDXT)
+[2016.04.22-08.31.34:541][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WydwynVayar_BattleMap_WalkStraight0003.png)
+[2016.04.22-08.31.34:542][432]LogTexture:Display: Building textures: WydwynVayar_BattleMap_WalkStraight0003 (AutoDXT)
+[2016.04.22-08.31.34:547][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\WydwynVayar_BattleMap_WalkStraight0004.png)
+[2016.04.22-08.31.34:548][432]LogTexture:Display: Building textures: WydwynVayar_BattleMap_WalkStraight0004 (AutoDXT)
+[2016.04.22-08.31.34:555][432]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 C:\Users\Garrett Johnson\Pictures\sprites_copy\CrossbowGirl_BattleMap0000.png)
+[2016.04.22-08.31.34:556][432]LogTexture:Display: Building textures: CrossbowGirl_BattleMap0000 (AutoDXT)
+[2016.04.22-08.33.16:817][404]LogSavePackage: Save=73.310295ms
+[2016.04.22-08.33.16:817][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Level_1_Final_Auto1ADFE05924A1CDA967B0D92B4E1EEC0B7.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Maps/Level_1_Final_Auto1.umap'
+[2016.04.22-08.33.16:819][404]LogSavePackage: Total save time: 84.863871ms
+[2016.04.22-08.33.16:819][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Maps/Level_1_Final_Auto1.umap
+[2016.04.22-08.33.16:820][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_1_Final' took 0.116
+[2016.04.22-08.33.16:820][404]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2016.04.22-08.33.16:825][404]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/HUD] ([1] browsable assets)...
+[2016.04.22-08.33.16:825][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/HUD]
+[2016.04.22-08.33.16:825][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/HUD" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Widgets/HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.04.22-08.33.16:845][404]LogSavePackage: Save=9.672614ms
+[2016.04.22-08.33.16:845][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/HUD_Auto1BF11327D4FC90128B8414A8D96BFF018.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Widgets/HUD_Auto1.uasset'
+[2016.04.22-08.33.16:848][404]LogSavePackage: Total save time: 21.652330ms
+[2016.04.22-08.33.16:848][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Widgets/HUD_Auto1.uasset
+[2016.04.22-08.33.16:852][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/FreyJakko_BattleMap_WalkStraight0000] ([1] browsable assets)...
+[2016.04.22-08.33.16:853][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/FreyJakko_BattleMap_WalkStraight0000.FreyJakko_BattleMap_WalkStraight0000]
+[2016.04.22-08.33.16:853][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/FreyJakko_BattleMap_WalkStraight0000]
+[2016.04.22-08.33.16:855][404]LogSavePackage: Save=1.272131ms
+[2016.04.22-08.33.16:855][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/FreyJakko_BattleMap_WalkStraight0000_Auto1BBA14C6848E8B4226482ED89F5E2E2C3.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/FreyJakko_BattleMap_WalkStraight0000_Auto1.uasset'
+[2016.04.22-08.33.16:856][404]LogSavePackage: Total save time: 1.906816ms
+[2016.04.22-08.33.16:856][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/FreyJakko_BattleMap_WalkStraight0000_Auto1.uasset
+[2016.04.22-08.33.16:860][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/JacenZarus_BattleMap_WalkStraight0000] ([1] browsable assets)...
+[2016.04.22-08.33.16:861][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/JacenZarus_BattleMap_WalkStraight0000.JacenZarus_BattleMap_WalkStraight0000]
+[2016.04.22-08.33.16:861][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/JacenZarus_BattleMap_WalkStraight0000]
+[2016.04.22-08.33.16:863][404]LogSavePackage: Save=1.224448ms
+[2016.04.22-08.33.16:863][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/JacenZarus_BattleMap_WalkStraight0000_Auto1BFC6F98145EE6CB2ECBA898EA427F605.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/JacenZarus_BattleMap_WalkStraight0000_Auto1.uasset'
+[2016.04.22-08.33.16:864][404]LogSavePackage: Total save time: 2.693336ms
+[2016.04.22-08.33.16:864][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/JacenZarus_BattleMap_WalkStraight0000_Auto1.uasset
+[2016.04.22-08.33.16:869][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/JacenZarus_BattleMap_WalkStraight0001] ([1] browsable assets)...
+[2016.04.22-08.33.16:870][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/JacenZarus_BattleMap_WalkStraight0001.JacenZarus_BattleMap_WalkStraight0001]
+[2016.04.22-08.33.16:870][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/JacenZarus_BattleMap_WalkStraight0001]
+[2016.04.22-08.33.16:874][404]LogSavePackage: Save=1.978843ms
+[2016.04.22-08.33.16:874][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/JacenZarus_BattleMap_WalkStraight0001_Auto1A097C86C492AD09C1CE3749989432695.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/JacenZarus_BattleMap_WalkStraight0001_Auto1.uasset'
+[2016.04.22-08.33.17:332][404]LogSavePackage: Total save time: 460.472833ms
+[2016.04.22-08.33.17:332][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/JacenZarus_BattleMap_WalkStraight0001_Auto1.uasset
+[2016.04.22-08.33.17:337][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/NeilaHacher_BattleMap_WalkStraight0000] ([1] browsable assets)...
+[2016.04.22-08.33.17:338][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/NeilaHacher_BattleMap_WalkStraight0000.NeilaHacher_BattleMap_WalkStraight0000]
+[2016.04.22-08.33.17:338][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/NeilaHacher_BattleMap_WalkStraight0000]
+[2016.04.22-08.33.17:340][404]LogSavePackage: Save=1.338887ms
+[2016.04.22-08.33.17:340][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/NeilaHacher_BattleMap_WalkStraight0000_Auto1D5564CDD4745F504E8B7C5BB24E3A221.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/NeilaHacher_BattleMap_WalkStraight0000_Auto1.uasset'
+[2016.04.22-08.33.17:341][404]LogSavePackage: Total save time: 2.619550ms
+[2016.04.22-08.33.17:341][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/NeilaHacher_BattleMap_WalkStraight0000_Auto1.uasset
+[2016.04.22-08.33.17:345][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/orrin_side0000] ([1] browsable assets)...
+[2016.04.22-08.33.17:347][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/orrin_side0000.orrin_side0000]
+[2016.04.22-08.33.17:347][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/orrin_side0000]
+[2016.04.22-08.33.17:349][404]LogSavePackage: Save=1.317555ms
+[2016.04.22-08.33.17:349][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/orrin_side0000_Auto1422B55A04A9E030246F70088A123D65D.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/orrin_side0000_Auto1.uasset'
+[2016.04.22-08.33.17:350][404]LogSavePackage: Total save time: 2.649918ms
+[2016.04.22-08.33.17:350][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/orrin_side0000_Auto1.uasset
+[2016.04.22-08.33.17:355][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/StaticDummy_BattleMap0000] ([1] browsable assets)...
+[2016.04.22-08.33.17:356][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/StaticDummy_BattleMap0000.StaticDummy_BattleMap0000]
+[2016.04.22-08.33.17:356][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/StaticDummy_BattleMap0000]
+[2016.04.22-08.33.17:438][404]LogSavePackage: Save=1.385064ms
+[2016.04.22-08.33.17:438][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/StaticDummy_BattleMap0000_Auto11E2977B24205DBB60E7FA09DA97BD581.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/StaticDummy_BattleMap0000_Auto1.uasset'
+[2016.04.22-08.33.17:439][404]LogSavePackage: Total save time: 2.440110ms
+[2016.04.22-08.33.17:439][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/StaticDummy_BattleMap0000_Auto1.uasset
+[2016.04.22-08.33.17:443][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WheeledDummy_BattleMap0000] ([1] browsable assets)...
+[2016.04.22-08.33.17:444][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WheeledDummy_BattleMap0000.WheeledDummy_BattleMap0000]
+[2016.04.22-08.33.17:444][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WheeledDummy_BattleMap0000]
+[2016.04.22-08.33.17:446][404]LogSavePackage: Save=1.465373ms
+[2016.04.22-08.33.17:446][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WheeledDummy_BattleMap0000_Auto10D61B6AF477F031C28652BAC7B947EF8.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WheeledDummy_BattleMap0000_Auto1.uasset'
+[2016.04.22-08.33.17:448][404]LogSavePackage: Total save time: 3.260761ms
+[2016.04.22-08.33.17:448][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WheeledDummy_BattleMap0000_Auto1.uasset
+[2016.04.22-08.33.17:453][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WheeledDummy_BattleMap0001] ([1] browsable assets)...
+[2016.04.22-08.33.17:454][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WheeledDummy_BattleMap0001.WheeledDummy_BattleMap0001]
+[2016.04.22-08.33.17:454][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WheeledDummy_BattleMap0001]
+[2016.04.22-08.33.17:457][404]LogSavePackage: Save=1.331860ms
+[2016.04.22-08.33.17:457][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WheeledDummy_BattleMap0001_Auto10F5C7F99423DE3046E87CFA4A2712608.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WheeledDummy_BattleMap0001_Auto1.uasset'
+[2016.04.22-08.33.17:458][404]LogSavePackage: Total save time: 2.650421ms
+[2016.04.22-08.33.17:458][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WheeledDummy_BattleMap0001_Auto1.uasset
+[2016.04.22-08.33.17:462][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WheeledDummy_BattleMap0002] ([1] browsable assets)...
+[2016.04.22-08.33.17:463][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WheeledDummy_BattleMap0002.WheeledDummy_BattleMap0002]
+[2016.04.22-08.33.17:463][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WheeledDummy_BattleMap0002]
+[2016.04.22-08.33.17:466][404]LogSavePackage: Save=1.335625ms
+[2016.04.22-08.33.17:466][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WheeledDummy_BattleMap0002_Auto14012CDC84BCAAB6FEFCF29A7DDCA2154.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WheeledDummy_BattleMap0002_Auto1.uasset'
+[2016.04.22-08.33.17:467][404]LogSavePackage: Total save time: 2.859723ms
+[2016.04.22-08.33.17:467][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WheeledDummy_BattleMap0002_Auto1.uasset
+[2016.04.22-08.33.17:472][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WheeledDummy_BattleMap0003] ([1] browsable assets)...
+[2016.04.22-08.33.17:472][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WheeledDummy_BattleMap0003.WheeledDummy_BattleMap0003]
+[2016.04.22-08.33.17:472][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WheeledDummy_BattleMap0003]
+[2016.04.22-08.33.17:522][404]LogSavePackage: Save=1.396358ms
+[2016.04.22-08.33.17:522][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WheeledDummy_BattleMap0003_Auto1C4D29D0A4B622F41F9F1BBA00643578F.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WheeledDummy_BattleMap0003_Auto1.uasset'
+[2016.04.22-08.33.17:523][404]LogSavePackage: Total save time: 2.545770ms
+[2016.04.22-08.33.17:523][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WheeledDummy_BattleMap0003_Auto1.uasset
+[2016.04.22-08.33.17:528][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0000] ([1] browsable assets)...
+[2016.04.22-08.33.17:528][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WydwynVayar_BattleMap_WalkStraight0000.WydwynVayar_BattleMap_WalkStraight0000]
+[2016.04.22-08.33.17:528][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0000]
+[2016.04.22-08.33.17:531][404]LogSavePackage: Save=1.595371ms
+[2016.04.22-08.33.17:531][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight0000_Auto1024471B54E915A874B7DB7B1893D0C83.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0000_Auto1.uasset'
+[2016.04.22-08.33.17:533][404]LogSavePackage: Total save time: 3.366921ms
+[2016.04.22-08.33.17:533][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0000_Auto1.uasset
+[2016.04.22-08.33.17:537][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0001] ([1] browsable assets)...
+[2016.04.22-08.33.17:538][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WydwynVayar_BattleMap_WalkStraight0001.WydwynVayar_BattleMap_WalkStraight0001]
+[2016.04.22-08.33.17:538][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0001]
+[2016.04.22-08.33.17:541][404]LogSavePackage: Save=1.309023ms
+[2016.04.22-08.33.17:541][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight0001_Auto10E2B217046EBD0FB1BABA39CAAB53E7D.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0001_Auto1.uasset'
+[2016.04.22-08.33.17:542][404]LogSavePackage: Total save time: 2.438106ms
+[2016.04.22-08.33.17:542][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0001_Auto1.uasset
+[2016.04.22-08.33.17:546][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0002] ([1] browsable assets)...
+[2016.04.22-08.33.17:547][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WydwynVayar_BattleMap_WalkStraight0002.WydwynVayar_BattleMap_WalkStraight0002]
+[2016.04.22-08.33.17:547][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0002]
+[2016.04.22-08.33.17:549][404]LogSavePackage: Save=1.253560ms
+[2016.04.22-08.33.17:549][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight0002_Auto1297F3E414C6C9FEF7DBDCE9AF229313A.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0002_Auto1.uasset'
+[2016.04.22-08.33.17:550][404]LogSavePackage: Total save time: 2.397448ms
+[2016.04.22-08.33.17:550][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0002_Auto1.uasset
+[2016.04.22-08.33.17:555][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0003] ([1] browsable assets)...
+[2016.04.22-08.33.17:556][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WydwynVayar_BattleMap_WalkStraight0003.WydwynVayar_BattleMap_WalkStraight0003]
+[2016.04.22-08.33.17:556][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0003]
+[2016.04.22-08.33.17:558][404]LogSavePackage: Save=1.280162ms
+[2016.04.22-08.33.17:558][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight0003_Auto1DCF8D79B450D4200A2553CB6D6BAA7F7.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0003_Auto1.uasset'
+[2016.04.22-08.33.17:559][404]LogSavePackage: Total save time: 2.385657ms
+[2016.04.22-08.33.17:559][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0003_Auto1.uasset
+[2016.04.22-08.33.17:564][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0004] ([1] browsable assets)...
+[2016.04.22-08.33.17:565][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/WydwynVayar_BattleMap_WalkStraight0004.WydwynVayar_BattleMap_WalkStraight0004]
+[2016.04.22-08.33.17:565][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0004]
+[2016.04.22-08.33.17:567][404]LogSavePackage: Save=1.351937ms
+[2016.04.22-08.33.17:567][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight0004_Auto18DFBEEC7488BB09120247AB2010CC970.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0004_Auto1.uasset'
+[2016.04.22-08.33.17:569][404]LogSavePackage: Total save time: 2.996750ms
+[2016.04.22-08.33.17:569][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/WydwynVayar_BattleMap_WalkStraight0004_Auto1.uasset
+[2016.04.22-08.33.17:573][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/CrossbowGirl_BattleMap0000] ([1] browsable assets)...
+[2016.04.22-08.33.17:574][404]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/CrossbowGirl_BattleMap0000.CrossbowGirl_BattleMap0000]
+[2016.04.22-08.33.17:574][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/CrossbowGirl_BattleMap0000]
+[2016.04.22-08.33.17:577][404]LogSavePackage: Save=1.261340ms
+[2016.04.22-08.33.17:577][404]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/CrossbowGirl_BattleMap0000_Auto1B1FFC1B84E8CC628D10774B1EC3C13A7.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/CrossbowGirl_BattleMap0000_Auto1.uasset'
+[2016.04.22-08.33.17:578][404]LogSavePackage: Total save time: 2.514146ms
+[2016.04.22-08.33.17:578][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Sprites/CrossbowGirl_BattleMap0000_Auto1.uasset
+[2016.04.22-08.33.17:578][404]LogFileHelpers: Auto-saving content packages took 0.757
+[2016.04.22-08.36.36:622][557]LogEditorViewport: Clicking on Actor (LMB): ExampleCharacter_CptOrrin_C (ExampleCharacter_CptOrrin)
+[2016.04.22-08.36.49:600][ 64]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:616][ 65]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:625][ 66]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:637][ 67]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:645][ 68]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:653][ 69]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:661][ 70]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:670][ 71]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:678][ 72]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:686][ 73]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:695][ 74]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:703][ 75]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:711][ 76]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:720][ 77]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:728][ 78]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:736][ 79]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.36.49:745][ 80]LogScript:Warning: Accessed None 'MyLevelGrid'
+	GameController_KND_C /Engine/Transient.World_5:PersistentLevel.GameController_KND_C_1
+	Function /Game/GameController_KND.GameController_KND_C:ExecuteUbergraph_GameController_KND:1AC6
+[2016.04.22-08.39.43:038][492]LogEditorViewport: Clicking Background
+[2016.04.22-08.40.08:950][573]LogEditorViewport: Clicking Background
+[2016.04.22-08.43.18:389][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_1_Final' took 0.030
+[2016.04.22-08.43.18:395][769]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/HUD] ([1] browsable assets)...
+[2016.04.22-08.43.18:395][769]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/HUD]
+[2016.04.22-08.43.18:395][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/HUD" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Widgets/HUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.04.22-08.43.18:413][769]LogSavePackage: Save=5.452923ms
+[2016.04.22-08.43.18:413][769]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/HUD_Auto2DAD7A9FB46A73D2451188799BA53EDDD.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Widgets/HUD_Auto2.uasset'
+[2016.04.22-08.43.18:414][769]LogSavePackage: Total save time: 18.550176ms
+[2016.04.22-08.43.18:414][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Autosaves/Game/Widgets/HUD_Auto2.uasset
+[2016.04.22-08.43.18:414][769]LogFileHelpers: Auto-saving content packages took 0.025
+[2016.04.22-08.50.52:080][711]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.50.52:170][711]BlueprintEditorCompileResults: Info [1710.40] Compile of HUD successful! [in 90 ms]
+[2016.04.22-08.53.07:899][874]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.53.07:992][874]BlueprintEditorCompileResults: Info [1846.22] Compile of HUD successful! [in 93 ms]
+[2016.04.22-08.54.31:375][674]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.54.31:377][674]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.54.31:443][674]LogBlueprint:Warning: [compiler HUD] Warning [1929.67] Compile of HUD successful, but with 1 Warning(s) [in 68 ms]
+[2016.04.22-08.54.31:443][674]BlueprintEditorCompileResults:Warning: Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.54.31:443][674]BlueprintEditorCompileResults:Warning: Warning [1929.67] Compile of HUD successful, but with 1 Warning(s) [in 68 ms]
+[2016.04.22-08.55.02:600][354]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.55.02:603][354]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.55.02:683][354]LogBlueprint:Warning: [compiler HUD] Warning [1960.91] Compile of HUD successful, but with 1 Warning(s) [in 82 ms]
+[2016.04.22-08.55.02:683][354]BlueprintEditorCompileResults:Warning: Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.55.02:683][354]BlueprintEditorCompileResults:Warning: Warning [1960.91] Compile of HUD successful, but with 1 Warning(s) [in 82 ms]
+[2016.04.22-08.56.12:868][640]LogBlueprint:Warning: Blueprint ExampleCharacter_CptOrrin (child of/implements ExampleCharacter) has a member variable with a conflicting name (Health). Changing to Health_0.
+[2016.04.22-08.56.15:586][963]BlueprintLog: New page: Compile ExampleCharacter
+[2016.04.22-08.56.15:611][963]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_Ally_Melee_C_213' (it may have been removed)
+[2016.04.22-08.56.15:645][963]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_Bandit_Melee_C_217' (it may have been removed)
+[2016.04.22-08.56.15:676][963]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_CptOrrin_C_221' (it may have been removed)
+[2016.04.22-08.56.15:783][963]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.56.16:011][963]BlueprintEditorCompileResults: Info [2034.24] Compile of ExampleCharacter successful! [in 424 ms]
+[2016.04.22-08.56.29:222][540]LogBlueprint:Warning: Blueprint ExampleCharacter_CptOrrin (child of/implements ExampleCharacter) has a member variable with a conflicting name (Movement). Changing to Movement_0.
+[2016.04.22-08.56.36:051][351]LogBlueprint:Warning: Blueprint ExampleCharacter_CptOrrin (child of/implements ExampleCharacter) has a member variable with a conflicting name (Action). Changing to Action_0.
+[2016.04.22-08.56.44:502][362]BlueprintLog: New page: Compile ExampleCharacter
+[2016.04.22-08.56.44:521][362]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_Ally_Melee_C_270' (it may have been removed)
+[2016.04.22-08.56.44:554][362]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_Bandit_Melee_C_274' (it may have been removed)
+[2016.04.22-08.56.44:583][362]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_CptOrrin_C_278' (it may have been removed)
+[2016.04.22-08.56.44:652][362]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.56.44:930][362]BlueprintEditorCompileResults: Info [2063.16] Compile of ExampleCharacter successful! [in 428 ms]
+[2016.04.22-08.56.58:487][975]LogBlueprint:Warning: Blueprint ExampleCharacter_CptOrrin (child of/implements ExampleCharacter) has a member variable with a conflicting name (Speed). Changing to Speed_0.
+[2016.04.22-08.57.00:644][227]BlueprintLog: New page: Compile ExampleCharacter
+[2016.04.22-08.57.00:663][227]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_Ally_Melee_C_309' (it may have been removed)
+[2016.04.22-08.57.00:695][227]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_Bandit_Melee_C_313' (it may have been removed)
+[2016.04.22-08.57.00:725][227]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_CptOrrin_C_317' (it may have been removed)
+[2016.04.22-08.57.00:836][227]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.57.01:079][227]BlueprintEditorCompileResults: Info [2079.30] Compile of ExampleCharacter successful! [in 434 ms]
+[2016.04.22-08.57.06:507][875]BlueprintLog: New page: Compile ExampleCharacter
+[2016.04.22-08.57.06:526][875]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_Ally_Melee_C_330' (it may have been removed)
+[2016.04.22-08.57.06:557][875]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_Bandit_Melee_C_334' (it may have been removed)
+[2016.04.22-08.57.06:586][875]LogBlueprint:Warning: USimpleConstructionScript::FixupRootNodeParentReferences() - Couldn't find inherited parent component 'Box1' for 'PaperFlipbook' in BlueprintGeneratedClass 'REINST_ExampleCharacter_CptOrrin_C_338' (it may have been removed)
+[2016.04.22-08.57.06:617][875]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.57.06:816][875]BlueprintEditorCompileResults: Info [2085.04] Compile of ExampleCharacter successful! [in 309 ms]
+[2016.04.22-08.57.26:081][162]BlueprintLog: New page: Compile HUD
+[2016.04.22-08.57.26:084][162]LogBlueprint:Warning: [compiler HUD] Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.57.26:157][162]LogBlueprint:Warning: [compiler HUD] Warning [2104.38] Compile of HUD successful, but with 1 Warning(s) [in 76 ms]
+[2016.04.22-08.57.26:157][162]BlueprintEditorCompileResults:Warning: Warning 'Example Character Cpt Orrin' does not inherit from 'Character' ( Cast To ExampleCharacter_CptOrrin  would always fail).
+[2016.04.22-08.57.26:157][162]BlueprintEditorCompileResults:Warning: Warning [2104.38] Compile of HUD successful, but with 1 Warning(s) [in 76 ms]
+[2016.04.22-08.57.34:810][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final' with GeneratedClass '/Game/Maps/Level_1_Final.Level_1_Final_C' with ClassGeneratedBy '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final'
+[2016.04.22-08.57.34:810][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.22-08.57.34:810][194]PIE: New page: PIE session: Level_1_Final (Apr 21, 2016, 10:57:34 PM)
+[2016.04.22-08.57.34:810][194]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_1_Final
+[2016.04.22-08.57.34:816][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005854s)
+[2016.04.22-08.57.34:817][194]LogAIModule: Creating AISystem for world Level_1_Final
+[2016.04.22-08.57.34:817][194]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2016.04.22-08.57.34:817][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1_Final.Level_1_Final to /Game/Maps/UEDPIE_0_Level_1_Final.Level_1_Final (0.006522s)
+[2016.04.22-08.57.34:851][194]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.22-08.57.34:894][194]LogInit: FAudioDevice initialized.
+[2016.04.22-08.57.34:926][194]LogWorld: Game class is 'ExampleGameMode_C'
+[2016.04.22-08.57.34:928][194]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1_Final.Level_1_Final up for play (max tick rate 0) at 2016.04.22-03.57.34
+[2016.04.22-08.57.34:928][194]LogActor:Warning: GameSession /Game/Maps/UEDPIE_0_Level_1_Final.Level_1_Final:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.22-08.57.34:928][194]LogActor:Warning: GameNetworkManager /Game/Maps/UEDPIE_0_Level_1_Final.Level_1_Final:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.04.22-08.57.34:928][194]LogWorld: Bringing up level for play took: 0.001705
+[2016.04.22-08.57.34:954][194]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1_Final 1.085
+[2016.04.22-08.57.34:954][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final' with GeneratedClass '/Game/Maps/Level_1_Final.Level_1_Final_C' with ClassGeneratedBy '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final'
+[2016.04.22-08.57.43:705][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final' with GeneratedClass '/Game/Maps/Level_1_Final.Level_1_Final_C' with ClassGeneratedBy '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final'
+[2016.04.22-08.57.43:741][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final' with GeneratedClass '/Game/Maps/Level_1_Final.Level_1_Final_C' with ClassGeneratedBy '/Game/Maps/Level_1_Final.Level_1_Final:PersistentLevel.Level_1_Final'
+[2016.04.22-08.57.43:767][239]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000026709E131A0
+[2016.04.22-08.57.45:233][413]LogEditorViewport: Clicking on Actor (LMB): ExampleCharacter_CptOrrin_C (ExampleCharacter_CptOrrin)
+[2016.04.22-08.58.15:977][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExampleCharacter_Ally_Melee" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_Ally_Melee.uasset" SILENT=true
+[2016.04.22-08.58.16:001][609]LogSavePackage: Save=12.121511ms
+[2016.04.22-08.58.16:001][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/ExampleCharacter_Ally_MeleeAF22003A4CEEE8250FD41AB9DC4B6AC3.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_Ally_Melee.uasset'
+[2016.04.22-08.58.16:003][609]LogSavePackage: Total save time: 25.295559ms
+[2016.04.22-08.58.16:003][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_Ally_Melee.uasset
+[2016.04.22-08.58.16:010][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExampleCharacter_Bandit_Melee" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_Bandit_Melee.uasset" SILENT=true
+[2016.04.22-08.58.16:028][609]LogSavePackage: Save=10.156721ms
+[2016.04.22-08.58.16:028][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/ExampleCharacter_Bandit_MeleeB7D2D80141F9A6F19552D4A49C9ED955.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_Bandit_Melee.uasset'
+[2016.04.22-08.58.16:030][609]LogSavePackage: Total save time: 19.428294ms
+[2016.04.22-08.58.16:030][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_Bandit_Melee.uasset
+[2016.04.22-08.58.16:036][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExampleCharacter_CptOrrin" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_CptOrrin.uasset" SILENT=true
+[2016.04.22-08.58.16:061][609]LogSavePackage: Save=17.292099ms
+[2016.04.22-08.58.16:061][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/ExampleCharacter_CptOrrinE567E8894B2C9E566AFB768FDF43FD3C.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_CptOrrin.uasset'
+[2016.04.22-08.58.16:064][609]LogSavePackage: Total save time: 26.432920ms
+[2016.04.22-08.58.16:064][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/ExampleCharacter_CptOrrin.uasset
+[2016.04.22-08.58.16:143][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1_Final" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Maps/Level_1_Final.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.22-08.58.16:252][609]LogSavePackage: Save=76.448837ms
+[2016.04.22-08.58.16:253][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/Level_1_Final0279F9B64392347B384DBAA0573877DA.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Maps/Level_1_Final.umap'
+[2016.04.22-08.58.16:255][609]LogSavePackage: Total save time: 85.783653ms
+[2016.04.22-08.58.16:255][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Maps/Level_1_Final.umap
+[2016.04.22-08.58.16:281][609]LogFileHelpers: Saving map 'Level_1_Final' took 0.216
+[2016.04.22-08.58.16:287][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/CrossbowGirl_BattleMap0000" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/CrossbowGirl_BattleMap0000.uasset" SILENT=true
+[2016.04.22-08.58.16:290][609]LogSavePackage: Save=1.514812ms
+[2016.04.22-08.58.16:290][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/CrossbowGirl_BattleMap00003713D9A24DD0CE7F7457AE9847DA6BE8.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/CrossbowGirl_BattleMap0000.uasset'
+[2016.04.22-08.58.16:291][609]LogSavePackage: Total save time: 2.753064ms
+[2016.04.22-08.58.16:291][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/CrossbowGirl_BattleMap0000.uasset
+[2016.04.22-08.58.16:301][609]LogSavePackage: Save=1.392844ms
+[2016.04.22-08.58.16:301][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/FreyJakko_BattleMap_WalkStraight0000C2950D294BCD9C21114F87AF596FE1C5.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/FreyJakko_BattleMap_WalkStraight0000.uasset'
+[2016.04.22-08.58.16:303][609]LogSavePackage: Total save time: 3.154103ms
+[2016.04.22-08.58.16:303][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/FreyJakko_BattleMap_WalkStraight0000.uasset
+[2016.04.22-08.58.16:313][609]LogSavePackage: Save=1.378790ms
+[2016.04.22-08.58.16:313][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/JacenZarus_BattleMap_WalkStraight00007D8C18E749FF78A8C40737BF58275AEB.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/JacenZarus_BattleMap_WalkStraight0000.uasset'
+[2016.04.22-08.58.16:315][609]LogSavePackage: Total save time: 3.071535ms
+[2016.04.22-08.58.16:315][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/JacenZarus_BattleMap_WalkStraight0000.uasset
+[2016.04.22-08.58.16:324][609]LogSavePackage: Save=1.473153ms
+[2016.04.22-08.58.16:324][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/JacenZarus_BattleMap_WalkStraight00019CE3892B4EEB745EE1FC0181F87E7A6B.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/JacenZarus_BattleMap_WalkStraight0001.uasset'
+[2016.04.22-08.58.16:326][609]LogSavePackage: Total save time: 3.169160ms
+[2016.04.22-08.58.16:326][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/JacenZarus_BattleMap_WalkStraight0001.uasset
+[2016.04.22-08.58.16:336][609]LogSavePackage: Save=1.395856ms
+[2016.04.22-08.58.16:336][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/NeilaHacher_BattleMap_WalkStraight0000F7F1D1184E633D3CC089FFB4AF99AE85.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/NeilaHacher_BattleMap_WalkStraight0000.uasset'
+[2016.04.22-08.58.16:338][609]LogSavePackage: Total save time: 3.285103ms
+[2016.04.22-08.58.16:338][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/NeilaHacher_BattleMap_WalkStraight0000.uasset
+[2016.04.22-08.58.16:345][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/orrin_side0000" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/orrin_side0000.uasset" SILENT=true
+[2016.04.22-08.58.16:347][609]LogSavePackage: Save=1.614194ms
+[2016.04.22-08.58.16:348][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/orrin_side00002B574E9445F9A2ADF8153D990516BB97.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/orrin_side0000.uasset'
+[2016.04.22-08.58.16:349][609]LogSavePackage: Total save time: 3.441703ms
+[2016.04.22-08.58.16:349][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/orrin_side0000.uasset
+[2016.04.22-08.58.16:356][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/StaticDummy_BattleMap0000" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/StaticDummy_BattleMap0000.uasset" SILENT=true
+[2016.04.22-08.58.16:359][609]LogSavePackage: Save=1.469388ms
+[2016.04.22-08.58.16:359][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/StaticDummy_BattleMap0000EC9128E642B027C5AE7F54A0404F2F29.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/StaticDummy_BattleMap0000.uasset'
+[2016.04.22-08.58.16:360][609]LogSavePackage: Total save time: 3.144816ms
+[2016.04.22-08.58.16:360][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/StaticDummy_BattleMap0000.uasset
+[2016.04.22-08.58.16:367][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/WheeledDummy_BattleMap0000" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0000.uasset" SILENT=true
+[2016.04.22-08.58.16:370][609]LogSavePackage: Save=1.459350ms
+[2016.04.22-08.58.16:370][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WheeledDummy_BattleMap000025BABCCB46EDAF0EA7F3F4AA512DE050.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0000.uasset'
+[2016.04.22-08.58.16:372][609]LogSavePackage: Total save time: 3.354121ms
+[2016.04.22-08.58.16:372][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0000.uasset
+[2016.04.22-08.58.16:378][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/WheeledDummy_BattleMap0001" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0001.uasset" SILENT=true
+[2016.04.22-08.58.16:381][609]LogSavePackage: Save=1.381802ms
+[2016.04.22-08.58.16:381][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WheeledDummy_BattleMap0001E70C133F40F832BF7D11C6BBF967E859.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0001.uasset'
+[2016.04.22-08.58.16:382][609]LogSavePackage: Total save time: 3.012560ms
+[2016.04.22-08.58.16:382][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0001.uasset
+[2016.04.22-08.58.16:389][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/WheeledDummy_BattleMap0002" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0002.uasset" SILENT=true
+[2016.04.22-08.58.16:391][609]LogSavePackage: Save=1.483442ms
+[2016.04.22-08.58.16:391][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WheeledDummy_BattleMap0002C04FDBE14A792EDD789BE9B0D51D7993.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0002.uasset'
+[2016.04.22-08.58.16:392][609]LogSavePackage: Total save time: 2.687059ms
+[2016.04.22-08.58.16:393][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0002.uasset
+[2016.04.22-08.58.16:400][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/WheeledDummy_BattleMap0003" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0003.uasset" SILENT=true
+[2016.04.22-08.58.16:403][609]LogSavePackage: Save=1.526608ms
+[2016.04.22-08.58.16:403][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WheeledDummy_BattleMap000387ADCC614A518034A7D669812ED5135B.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0003.uasset'
+[2016.04.22-08.58.16:404][609]LogSavePackage: Total save time: 3.480103ms
+[2016.04.22-08.58.16:404][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WheeledDummy_BattleMap0003.uasset
+[2016.04.22-08.58.16:415][609]LogSavePackage: Save=1.441782ms
+[2016.04.22-08.58.16:415][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight00002E2568AC4579A6C56E8E00816087BFC5.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0000.uasset'
+[2016.04.22-08.58.16:416][609]LogSavePackage: Total save time: 3.124993ms
+[2016.04.22-08.58.16:416][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0000.uasset
+[2016.04.22-08.58.16:426][609]LogSavePackage: Save=1.487457ms
+[2016.04.22-08.58.16:426][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight000172CB035A45E684C321524D9CC8EB8D7B.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0001.uasset'
+[2016.04.22-08.58.16:427][609]LogSavePackage: Total save time: 3.216092ms
+[2016.04.22-08.58.16:427][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0001.uasset
+[2016.04.22-08.58.16:437][609]LogSavePackage: Save=1.574793ms
+[2016.04.22-08.58.16:437][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight0002C34EE89248269AD3DE3E1ABF2B8FCA9C.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0002.uasset'
+[2016.04.22-08.58.16:439][609]LogSavePackage: Total save time: 3.500432ms
+[2016.04.22-08.58.16:439][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0002.uasset
+[2016.04.22-08.58.16:448][609]LogSavePackage: Save=1.555468ms
+[2016.04.22-08.58.16:448][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight00038AC454574CF2A01E5EA114920E14F43E.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0003.uasset'
+[2016.04.22-08.58.16:450][609]LogSavePackage: Total save time: 3.307439ms
+[2016.04.22-08.58.16:450][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0003.uasset
+[2016.04.22-08.58.16:460][609]LogSavePackage: Save=1.481434ms
+[2016.04.22-08.58.16:460][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/WydwynVayar_BattleMap_WalkStraight000497A76E2345790E4F5D22CE8AD8CF7463.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0004.uasset'
+[2016.04.22-08.58.16:461][609]LogSavePackage: Total save time: 3.135029ms
+[2016.04.22-08.58.16:461][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Sprites/WydwynVayar_BattleMap_WalkStraight0004.uasset
+[2016.04.22-08.58.16:515][609]LogSavePackage: Save=35.330814ms
+[2016.04.22-08.58.16:515][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/ExampleCharacterDC21C5304B76D4E140C5FE9815897666.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Blueprints/Example/ExampleCharacter.uasset'
+[2016.04.22-08.58.16:517][609]LogSavePackage: Total save time: 47.873441ms
+[2016.04.22-08.58.16:517][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/TBStrategyGrids/Blueprints/Example/ExampleCharacter.uasset
+[2016.04.22-08.58.16:524][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/HUD" FILE="../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Widgets/HUD.uasset" SILENT=true
+[2016.04.22-08.58.16:935][609]LogSavePackage: Save=402.094849ms
+[2016.04.22-08.58.16:935][609]LogSavePackage: Moving '../../../../../../Documents/Unreal Projects/Know_No_Demons/Saved/HUD8726FC0D4C84C03971AE4AAE90E094FF.tmp' to '../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Widgets/HUD.uasset'
+[2016.04.22-08.58.16:944][609]LogSavePackage: Total save time: 419.446167ms
+[2016.04.22-08.58.16:945][609]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/Unreal Projects/Know_No_Demons/Content/Widgets/HUD.uasset
+[2016.04.22-08.58.17:139][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.22-08.58.17:189][609]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.22-08.58.17:457][610]Cmd: QUIT_EDITOR
+[2016.04.22-08.58.17:746][610]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.22-08.58.17:786][610]LogExit: Preparing to exit.
+[2016.04.22-08.58.19:113][610]LogExit: Editor shut down
+[2016.04.22-08.58.19:114][610]LogExit: Transaction tracking system shut down
+[2016.04.22-08.58.19:116][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000266B7664E00
+[2016.04.22-08.58.19:116][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000266DBEDB880
+[2016.04.22-08.58.19:117][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000266DC52D1C0
+[2016.04.22-08.58.19:120][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000266DB734CC0
+[2016.04.22-08.58.19:126][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000266B76AC900
+[2016.04.22-08.58.19:128][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000026693F40D60
+[2016.04.22-08.58.19:129][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000026692F13240
+[2016.04.22-08.58.19:130][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000026692F11120
+[2016.04.22-08.58.19:292][610]LogExit: Object subsystem successfully closed.
+[2016.04.22-08.58.19:301][610]LogD3D11RHI: Shutdown
+[2016.04.22-08.58.19:301][610]LogD3D11RHI: CleanupD3DDevice
+[2016.04.22-08.58.19:336][610]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.22-08.58.19:343][610]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.04.22-08.58.19:343][610]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2016.04.22-08.58.19:343][610]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.04.22-08.58.19:343][610]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.04.22-08.58.19:343][610]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.04.22-08.58.19:344][610]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.04.22-08.58.19:344][610]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.04.22-08.58.19:344][610]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.04.22-08.58.19:347][610]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.04.22-08.58.19:718][610]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.04.22-08.58.19:718][610]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.04.22-08.58.19:718][610]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.04.22-08.58.19:718][610]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.04.22-08.58.19:718][610]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.04.22-08.58.19:718][610]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.04.22-08.58.19:719][610]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.04.22-08.58.19:720][610]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.04.22-08.58.19:810][610]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.04.22-08.58.19:810][610]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.04.22-08.58.19:810][610]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.04.22-08.58.19:810][610]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.04.22-08.58.19:810][610]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.04.22-08.58.19:810][610]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.04.22-08.58.19:811][610]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.04.22-08.58.19:811][610]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.04.22-08.58.19:831][610]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.04.22-08.58.19:831][610]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.04.22-08.58.19:831][610]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.04.22-08.58.19:831][610]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.04.22-08.58.19:832][610]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.04.22-08.58.19:833][610]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.04.22-08.58.19:834][610]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.04.22-08.58.19:939][610]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.04.22-08.58.19:940][610]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.04.22-08.58.19:940][610]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.04.22-08.58.20:041][610]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.04.22-08.58.20:041][610]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.04.22-08.58.20:041][610]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.04.22-08.58.20:043][610]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.04.22-08.58.20:044][610]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.04.22-08.58.20:044][610]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.04.22-08.58.20:044][610]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.04.22-08.58.20:044][610]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.04.22-08.58.20:045][610]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.04.22-08.58.20:085][610]LogDerivedDataCache: Shutdown
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.22-08.58.20:085][610]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.22-08.58.20:086][610]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.22-08.58.20:086][610]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.22-08.58.22:088][610]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.22-08.58.22:088][610]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.22-08.58.22:088][610]LogHMD: Oculus shutdown.
+[2016.04.22-08.58.22:088][610]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.22-08.58.22:088][610]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.22-08.58.22:088][610]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.22-08.58.22:088][610]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.22-08.58.22:088][610]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.22-08.58.22:092][610]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.22-08.58.22:093][610]LogExit: Exiting.
+[2016.04.22-08.58.22:105][610]Log file closed, 04/22/16 03:58:22
